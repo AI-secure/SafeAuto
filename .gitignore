@@ -207,4 +207,7 @@ secrets.yml
 
 # Dataset directories
 data/BDDX*
-data/DriveLM*cache_dir/
+data/DriveLM*
+cache_dir/
+data/DriveLM_train
+data/DriveLM_val
