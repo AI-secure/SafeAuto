@@ -1,15 +1,16 @@
 <div align="center">
-<img src="assets/icon.png" width="100" height="100" alt="SafeAuto Logo">
-</div>
+<img src="assets/icon.png" width="200" height="200" alt="SafeAuto Logo">
+
 
 # SafeAuto: Knowledge-Enhanced Safe Autonomous Driving with Multimodal Foundation Models
 
-[![ICML2025](https://img.shields.io/badge/arXiv-2503.00211-b31b1b.svg)](https://arxiv.org/abs/2503.00211)
+[![ICML 2025](https://img.shields.io/badge/ICML-2025-blue.svg)](https://arxiv.org/abs/2503.00211)
+[![arXiv](https://img.shields.io/badge/arXiv-2503.00211-b31b1b.svg)](https://arxiv.org/abs/2503.00211)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.01%2B-orange.svg)](https://pytorch.org/)
 
-> **ICML 2025: SafeAuto: Knowledge-Enhanced Safe Autonomous Driving with Multimodal Foundation Models**
+</div>
 
 ## 🚗 Overview
 
@@ -225,6 +226,8 @@ PDCE loss addresses the limitation of standard cross-entropy loss for numerical 
 1. **Digit-Level Proximity**: Digits closer to the target incur lower loss
 2. **Place-Level Importance**: More significant digit positions have greater influence
 
+**Implementation Details**: The PDCE loss implementation with comprehensive annotations can be found in [`llava/model/language_model/llava_llama.py`](https://github.com/AI-secure/SafeAuto/blob/main/llava/model/language_model/llava_llama.py#L154).
+
 ![PDCE Distribution Comparison](assets/pdce_distribution.png)
 
 The figure above shows the key advantage of PDCE loss: it creates a single-peak distribution centered around the target value (similar to MSE loss), while the original CE loss produces multi-peak distributions. This means predictions closer to the target value will have smaller loss, encouraging more accurate numerical predictions.
@@ -255,7 +258,7 @@ bash scripts/eval_bddx.sh 0.01 0.35 true 2
 bash scripts/eval_drivelm.sh 0.01 0.35 true 1
 ```
 
-[TODO: add the code for safety verification]
+[TODO: add the instruction for safety verification]
 
 This step:
 - Loads the fine-tuned model
