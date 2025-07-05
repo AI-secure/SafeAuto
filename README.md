@@ -84,7 +84,7 @@ bash scripts/download_base.sh
 We also provide some pretrained SafeAuto models on HuggingFace:
 
 - **BDD-X Dataset**: [SafeAuto-BDDX](https://huggingface.co/javyduck/SafeAuto-BDDX)
-- **DriveLM Dataset**: [SafeAuto-drivelm](https://huggingface.co/javyduck/SafeAuto-Drivelm)
+- **DriveLM Dataset**: [SafeAuto-Drivelm](https://huggingface.co/javyduck/SafeAuto-Drivelm)
 
 ## 🚀 Quick Start
 
@@ -192,10 +192,10 @@ Train the Retrieval-Augmented Generation model using multimodal signals (we also
 
 ```bash
 # Train RAG model on BDD-X dataset
-python retrieval/retrieve.py --dataset bddx --num_epochs 100 --batch_size 2048
+python retrieval/main.py --dataset bddx --num_epochs 100 --batch_size 2048
 
 # Train RAG model on DriveLM dataset
-python retrieval/retrieve.py --dataset drivelm --num_epochs 50 --batch_size 512
+python retrieval/main.py --dataset drivelm --num_epochs 50 --batch_size 512
 ```
 
 The RAG training process:

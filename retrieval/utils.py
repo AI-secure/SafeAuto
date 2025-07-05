@@ -14,11 +14,9 @@ def parse_args():
     # Model and data paths
     parser.add_argument('--model_path', type=str, default='/home/jiaweizhang/Nuro/RAGDriver/checkpoints/Video-LLaVA-7B_RAGDRIVER',
                         help='Path to pretrained model')
-    parser.add_argument('--data_dir', type=str, default='data/conversation/bddx',
-                        help='Directory containing training data')
-    parser.add_argument('--video_dir', type=str, default='data',
-                        help='Directory containing video files')
-    parser.add_argument('--output_dir', type=str, default='./retrieval/ckpts',
+    parser.add_argument('--data_dir', type=str, default='data',
+                        help='Directory containing video/ image files')
+    parser.add_argument('--output_dir', type=str, default='retrieval',
                         help='Directory to save outputs')
     
     # Dataset selection
@@ -26,6 +24,8 @@ def parse_args():
                         help='Dataset to use for training (bddx or drivelm)')
     
     # Training hyperparameters
+    parser.add_argument('--fusion_dim', type=int, default=128,
+                        help='Dimensionality of the projected multimodal features before fusion')
     parser.add_argument('--batch_size', type=int, default=2048,
                         help='Training batch size')
     parser.add_argument('--eval_batch_size', type=int, default=128,
@@ -71,13 +71,13 @@ def get_data_paths(args) -> Tuple[str, str]:
     Get training and evaluation data paths based on dataset.
     
     Args:
-        args: Parsed arguments containing dataset and data_dir
+        args: Parsed arguments containing dataset and conversation_dir
         
     Returns:
         Tuple of (train_data_path, eval_data_path)
     """
-    train_data_path = os.path.join(args.data_dir, f'conversation_{args.dataset}_train.json')
-    eval_data_path = os.path.join(args.data_dir, f'conversation_{args.dataset}_eval.json')
+    train_data_path = os.path.join(args.conversation_dir, f'conversation_{args.dataset}_train.json')
+    eval_data_path = os.path.join(args.conversation_dir, f'conversation_{args.dataset}_eval.json')
     
     return train_data_path, eval_data_path
 
@@ -87,7 +87,7 @@ def setup_output_dirs(args):
     os.makedirs(args.output_dir, exist_ok=True)
     
     # Create retrieval subdirectory
-    retrieval_dir = os.path.join(args.output_dir, 'retrieval/ckpts')
+    retrieval_dir = os.path.join(args.output_dir, 'ckpts')
     os.makedirs(retrieval_dir, exist_ok=True)
     
     return retrieval_dir
@@ -95,9 +95,9 @@ def setup_output_dirs(args):
 
 def get_checkpoint_path(args) -> str:
     """Get the checkpoint save path."""
-    return os.path.join(args.output_dir, f'retrieval/ckpts/rag_projector_{args.dataset}.pth')
+    return os.path.join(args.output_dir, f'ckpts/rag_projector_{args.dataset}.pth')
 
 
 def get_retrieval_index_path(args) -> str:
     """Get the retrieval index save path."""
-    return os.path.join(args.output_dir, f'retrieval/rag_json/{args.dataset}_rag_top{args.top_k}.json') 
+    return os.path.join(args.output_dir, f'rag_json/{args.dataset}_rag_top{args.top_k}.json') 

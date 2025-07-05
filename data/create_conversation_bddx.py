@@ -38,12 +38,19 @@ TEST_INFO_ROOT = Path("data/BDDX_Test/info")
 # Output directory
 OUTPUT_DIR = Path("data/conversation/bddx")
 
-# Videos that are known to be corrupted
+# Videos that are found to be corrupted or repeated
 BROKEN_VIDEOS = {
     "10af6ba8-167c93c2_11906.mp4",
     "1036b362-92000280_11763.mp4",
     "22f325ef-1cafcfb4_21220.mp4",
     "231bdb08-2859bb11_21308.mp4",
+    "23102cfb-b94e3ca0_21269.mp4",
+    "2332ba2c-628e84e7_21390.mp4",
+    "2332ba2c-628e84e7_21391.mp4",
+    "22b4f5e6-a1859104_21148.mp4",
+    "22b4f5e6-a1859104_21147.mp4",
+    "231bdb08-2859bb11_21307.mp4",
+    "22f325ef-1cafcfb4_21219.mp4"
 }
 
 # Conversation Constant Questions
@@ -203,7 +210,7 @@ def process_split(
         video_filename = video_path.name
         if video_filename in BROKEN_VIDEOS:
             continue
-
+            
         context, final_cs = build_car_context(
             info["car_info"],
             decimal_digits=config.decimal,

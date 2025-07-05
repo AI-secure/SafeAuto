@@ -3168,38 +3168,6 @@
     ]
   },
   {
-    "id": "100",
-    "video": [
-      "data/BDDX_Test/videos/23102cfb-b94e3ca0_21269.mp4"
-    ],
-    "conversations": [
-      {
-        "from": "human",
-        "value": "The current video records driving scenario: <video>\n Control Signal until current Frame Sequence is: Speed: [06.750, 06.376, 06.214, 06.293, 06.597, 06.909, 07.238]\n Curvature: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\n Acceleration: [-00.700, -00.388, -00.075, 00.277, 00.423, 00.440, 00.259]\n Course: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\nWhat is the action of ego car?"
-      },
-      {
-        "from": "gpt",
-        "value": "The car goes left into another lane"
-      },
-      {
-        "from": "human",
-        "value": "Why does the ego car doing this?"
-      },
-      {
-        "from": "gpt",
-        "value": "to get around a taxi making a right turn."
-      },
-      {
-        "from": "human",
-        "value": "Predict the control signal for next frame."
-      },
-      {
-        "from": "gpt",
-        "value": "Speed: 07.273 Course: 00.000"
-      }
-    ]
-  },
-  {
     "id": "1516",
     "video": [
       "data/BDDX_Test/videos/2a857225-cb7dac35_25774.mp4"
@@ -23936,38 +23904,6 @@
     ]
   },
   {
-    "id": "192",
-    "video": [
-      "data/BDDX_Test/videos/2332ba2c-628e84e7_21390.mp4"
-    ],
-    "conversations": [
-      {
-        "from": "human",
-        "value": "The current video records driving scenario: <video>\n Control Signal until current Frame Sequence is: Speed: [05.430, 04.438, 03.570, 02.578, 01.710, 01.442, 01.175]\n Curvature: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\n Acceleration: [-03.470, -03.170, -02.907, -02.607, -02.345, -01.905, -01.465]\n Course: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\nWhat is the action of ego car?"
-      },
-      {
-        "from": "gpt",
-        "value": "The car stops"
-      },
-      {
-        "from": "human",
-        "value": "Why does the ego car doing this?"
-      },
-      {
-        "from": "gpt",
-        "value": "because traffic has stopped."
-      },
-      {
-        "from": "human",
-        "value": "Predict the control signal for next frame."
-      },
-      {
-        "from": "gpt",
-        "value": "Speed: 00.941 Course: 00.000"
-      }
-    ]
-  },
-  {
     "id": "236",
     "video": [
       "data/BDDX_Test/videos/2475f1bd-2c2ad28d_24009.mp4"
@@ -37888,38 +37824,6 @@
     ]
   },
   {
-    "id": "193",
-    "video": [
-      "data/BDDX_Test/videos/2332ba2c-628e84e7_21391.mp4"
-    ],
-    "conversations": [
-      {
-        "from": "human",
-        "value": "The current video records driving scenario: <video>\n Control Signal until current Frame Sequence is: Speed: [00.210, 01.310, 02.249, 03.807, 06.361, 07.422, 07.058]\n Curvature: [00.000, 00.000, 00.000, 00.007, 00.007, 00.006, -00.012]\n Acceleration: [00.285, 00.970, 01.217, 02.013, 01.726, 00.355, -00.337]\n Course: [00.000, 00.000, 00.000, 00.000, 00.000, -00.049, -00.024]\nWhat is the action of ego car?"
-      },
-      {
-        "from": "gpt",
-        "value": "The car accelerates"
-      },
-      {
-        "from": "human",
-        "value": "Why does the ego car doing this?"
-      },
-      {
-        "from": "gpt",
-        "value": "because it's turning to the right."
-      },
-      {
-        "from": "human",
-        "value": "Predict the control signal for next frame."
-      },
-      {
-        "from": "gpt",
-        "value": "Speed: 06.723 Course: 03.585"
-      }
-    ]
-  },
-  {
     "id": "1375",
     "video": [
       "data/BDDX_Test/videos/2a5faae7-4653836a_25597.mp4"
@@ -43036,38 +42940,6 @@
       {
         "from": "gpt",
         "value": "Speed: 06.497 Course: 00.000"
-      }
-    ]
-  },
-  {
-    "id": "1",
-    "video": [
-      "data/BDDX_Test/videos/22b4f5e6-a1859104_21148.mp4"
-    ],
-    "conversations": [
-      {
-        "from": "human",
-        "value": "The current video records driving scenario: <video>\n Control Signal until current Frame Sequence is: Speed: [00.670, 00.176, 00.561, 00.713, 00.752, 01.351, 00.770]\n Curvature: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\n Acceleration: [-00.505, -00.038, 00.270, 00.081, 00.329, 00.008, -00.549]\n Course: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\nWhat is the action of ego car?"
-      },
-      {
-        "from": "gpt",
-        "value": "The car is backing up to the left"
-      },
-      {
-        "from": "human",
-        "value": "Why does the ego car doing this?"
-      },
-      {
-        "from": "gpt",
-        "value": "because it is maneuvering in a parking lot."
-      },
-      {
-        "from": "human",
-        "value": "Predict the control signal for next frame."
-      },
-      {
-        "from": "gpt",
-        "value": "Speed: 00.225 Course: 00.000"
       }
     ]
   },
@@ -48384,38 +48256,6 @@
     ]
   },
   {
-    "id": "0",
-    "video": [
-      "data/BDDX_Test/videos/22b4f5e6-a1859104_21147.mp4"
-    ],
-    "conversations": [
-      {
-        "from": "human",
-        "value": "The current video records driving scenario: <video>\n Control Signal until current Frame Sequence is: Speed: [00.230, 00.750, 01.054, 01.150, 01.418, 01.479, 01.215]\n Curvature: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\n Acceleration: [00.780, 00.570, 00.414, 00.301, 00.116, -00.119, -00.401]\n Course: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\nWhat is the action of ego car?"
-      },
-      {
-        "from": "gpt",
-        "value": "The car is steering to the left"
-      },
-      {
-        "from": "human",
-        "value": "Why does the ego car doing this?"
-      },
-      {
-        "from": "gpt",
-        "value": "because it is moving in a parking lot."
-      },
-      {
-        "from": "human",
-        "value": "Predict the control signal for next frame."
-      },
-      {
-        "from": "gpt",
-        "value": "Speed: 00.907 Course: 00.000"
-      }
-    ]
-  },
-  {
     "id": "751",
     "video": [
       "data/BDDX_Test/videos/2895b5bc-49bb4c73_24684.mp4"
@@ -51516,38 +51356,6 @@
       {
         "from": "gpt",
         "value": "Speed: 06.935 Course: 00.000"
-      }
-    ]
-  },
-  {
-    "id": "128",
-    "video": [
-      "data/BDDX_Test/videos/231bdb08-2859bb11_21307.mp4"
-    ],
-    "conversations": [
-      {
-        "from": "human",
-        "value": "The current video records driving scenario: <video>\n Control Signal until current Frame Sequence is: Speed: [02.530, 01.644, 00.757, 00.201, 00.108, 00.015, 00.000]\n Curvature: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\n Acceleration: [-02.550, -02.053, -01.555, -01.080, -00.637, -00.194, 00.045]\n Course: [00.000, 00.000, 00.000, 00.000, 00.000, 00.000, 00.000]\nWhat is the action of ego car?"
-      },
-      {
-        "from": "gpt",
-        "value": "The car comes to a stop in the middle of the road"
-      },
-      {
-        "from": "human",
-        "value": "Why does the ego car doing this?"
-      },
-      {
-        "from": "gpt",
-        "value": "because it found a parking spot."
-      },
-      {
-        "from": "human",
-        "value": "Predict the control signal for next frame."
-      },
-      {
-        "from": "gpt",
-        "value": "Speed: 00.000 Course: 00.000"
       }
     ]
   },
@@ -61948,38 +61756,6 @@
       {
         "from": "gpt",
         "value": "Speed: 05.622 Course: 00.000"
-      }
-    ]
-  },
-  {
-    "id": "64",
-    "video": [
-      "data/BDDX_Test/videos/22f325ef-1cafcfb4_21219.mp4"
-    ],
-    "conversations": [
-      {
-        "from": "human",
-        "value": "The current video records driving scenario: <video>\n Control Signal until current Frame Sequence is: Speed: [25.440, 25.472, 25.500, 25.495, 25.459, 25.214, 24.995]\n Curvature: [00.001, -00.017, -00.035, -00.047, -00.053, -00.007, 00.022]\n Acceleration: [-00.030, -00.001, 00.017, -00.118, -00.247, -00.340, -00.410]\n Course: [00.000, 00.000, 00.089, 00.357, 00.296, 00.234, 00.085]\nWhat is the action of ego car?"
-      },
-      {
-        "from": "gpt",
-        "value": "The car exits right off the main highway"
-      },
-      {
-        "from": "human",
-        "value": "Why does the ego car doing this?"
-      },
-      {
-        "from": "gpt",
-        "value": "since the road is clear."
-      },
-      {
-        "from": "human",
-        "value": "Predict the control signal for next frame."
-      },
-      {
-        "from": "gpt",
-        "value": "Speed: 24.809 Course: 00.113"
       }
     ]
   },

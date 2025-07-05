@@ -9,11 +9,14 @@ from tqdm import tqdm
 from typing import Dict, List
 
 
-def kl_divergence(logits, targets, dim, temperature=1.0):
-    """Compute KL divergence loss with temperature scaling."""
-    log_pred = F.log_softmax(logits / temperature, dim=dim)
-    targets = F.softmax(targets / temperature, dim=dim)
-    return F.kl_div(log_pred, targets, reduction='batchmean')
+def kl_divergence(p_logits, q_logits, dim, temperature=0.5):
+    # Apply temperature scaling to q_logits
+    q_logits = q_logits / temperature
+    # Compute q distribution after temperature scaling
+    q = F.softmax(q_logits, dim=dim)
+    # Compute KL divergence with softmax for p_logits
+    kl_div = F.kl_div(F.log_softmax(p_logits, dim=dim), q, reduction='batchmean')
+    return kl_div
 
 
 def train_model(model, dataloader: DataLoader, optimizer, args):
@@ -33,13 +36,13 @@ def train_model(model, dataloader: DataLoader, optimizer, args):
             predicate_emb = predicate_emb.to(args.device)
             
             # Forward pass
-            signal_embedding, visual_embedding, hidden_embedding = model(
+            fused_embedding = model(
                 visual_emb, signal_emb, predicate_emb
             )
             
             # Compute losses
             ground_logits = text_emb @ text_emb.T
-            logits = hidden_embedding @ hidden_embedding.T
+            logits = fused_embedding @ fused_embedding.T
             
             loss_i = kl_divergence(logits, ground_logits, dim=0, temperature=args.temperature)
             loss_t = kl_divergence(logits, ground_logits, dim=1, temperature=args.temperature)
@@ -67,21 +70,23 @@ def generate_retrieval_index(model, train_dataset, eval_dataset, args) -> Dict[s
         args: Configuration arguments
         
     Returns:
-        Dictionary mapping visual paths to similar visual paths
+        Dictionary mapping keys to similar keys:
+        - BDD-X: path -> [similar_paths]
+        - DriveLM: id -> [similar_ids]
     """
     model.eval()
     
-    # Get data from existing dataset objects (no redundant loading!)
+    # Get data from existing dataset objects
     train_visual_paths = train_dataset.visual_paths
-    train_texts = train_dataset.texts
+    train_ids = train_dataset.ids
     eval_visual_paths = eval_dataset.visual_paths
-    eval_texts = eval_dataset.texts
-    
+    eval_ids = eval_dataset.ids
+
     print(f"Loaded {len(train_visual_paths)} training samples and {len(eval_visual_paths)} eval samples")
     
     # Process training embeddings
     print("Processing training embeddings...")
-    visual_embeddings = []
+    train_embeddings_list = []
     train_dataloader = DataLoader(train_dataset, batch_size=128, shuffle=False, drop_last=False)
     
     with torch.no_grad():
@@ -90,11 +95,11 @@ def generate_retrieval_index(model, train_dataset, eval_dataset, args) -> Dict[s
             signal_emb = signal_emb.to(args.device)
             predicate_emb = predicate_emb.to(args.device)
             
-            # Compute projections
-            _, _, hidden_emb = model(visual_emb, signal_emb, predicate_emb)
-            visual_embeddings.append(hidden_emb.cpu())
+            # Compute fused embeddings
+            fused_emb = model(visual_emb, signal_emb, predicate_emb)
+            train_embeddings_list.append(fused_emb.cpu())
     
-    train_embeddings = torch.cat(visual_embeddings)
+    train_embeddings = torch.cat(train_embeddings_list)
     
     # Create retrieval index for training data (self-similarity)
     print("Computing training similarities...")
@@ -107,24 +112,25 @@ def generate_retrieval_index(model, train_dataset, eval_dataset, args) -> Dict[s
     rag_dict = {}
     
     # Add training similarities to dictionary
-    for i, path in enumerate(train_visual_paths):
+    for i in range(len(train_visual_paths)):
         current_index = topk_indices[i]
-        if len(current_index):
+        if len(current_index) > 0:
             if args.dataset == 'bddx':
-                path_key = path.split('/')[-1]
+                # For BDD-X, use path as key
+                path_key = train_visual_paths[i].split('/')[-1]  # Extract filename
                 similar_paths = [train_visual_paths[j].split('/')[-1] for j in current_index]
+                rag_dict[path_key] = similar_paths
             else:
-                # For drivelm, path is a list of image paths
-                path_key = str(path)  # Convert list to string for key
-                similar_paths = [str(train_visual_paths[j]) for j in current_index]
-            
-            rag_dict[path_key] = similar_paths
+                # For DriveLM, use id as key
+                id_key = str(train_ids[i])
+                similar_ids = [str(train_ids[j]) for j in current_index]
+                rag_dict[id_key] = similar_ids
         else:
             print(f"No similar samples found for training sample {i}")
-    
+                
     # Process evaluation embeddings
     print("Processing evaluation embeddings...")
-    eval_visual_embeddings = []
+    eval_embeddings_list = []
     eval_dataloader = DataLoader(eval_dataset, batch_size=128, shuffle=False, drop_last=False)
     
     with torch.no_grad():
@@ -133,11 +139,11 @@ def generate_retrieval_index(model, train_dataset, eval_dataset, args) -> Dict[s
             signal_emb = signal_emb.to(args.device)
             predicate_emb = predicate_emb.to(args.device)
             
-            # Compute projections
-            _, _, hidden_emb = model(visual_emb, signal_emb, predicate_emb)
-            eval_visual_embeddings.append(hidden_emb.cpu())
+            # Compute fused embeddings
+            fused_emb = model(visual_emb, signal_emb, predicate_emb)
+            eval_embeddings_list.append(fused_emb.cpu())
     
-    eval_embeddings = torch.cat(eval_visual_embeddings)
+    eval_embeddings = torch.cat(eval_embeddings_list)
     
     # Compute similarity between eval and train embeddings
     print("Computing eval-train similarities...")
@@ -146,17 +152,19 @@ def generate_retrieval_index(model, train_dataset, eval_dataset, args) -> Dict[s
     eval_topk_values, eval_topk_indices = torch.topk(similarity_matrix, k=args.top_k, dim=1)
     
     # Add evaluation similarities to dictionary
-    for i, path in enumerate(eval_visual_paths):
+    for i in range(len(eval_visual_paths)):
         current_index = eval_topk_indices[i]
-        if len(current_index):
+        if len(current_index) > 0:
             if args.dataset == 'bddx':
-                path_key = path.split('/')[-1]
+                # For BDD-X, use path as key, retrieve similar paths from training
+                eval_path_key = eval_visual_paths[i].split('/')[-1]  # Extract filename
                 similar_paths = [train_visual_paths[j].split('/')[-1] for j in current_index]
+                rag_dict[eval_path_key] = similar_paths
             else:
-                path_key = str(path)
-                similar_paths = [str(train_visual_paths[j]) for j in current_index]
-            
-            rag_dict[path_key] = similar_paths
+                # For DriveLM, use id as key, retrieve similar ids from training
+                eval_id_key = str(eval_ids[i])
+                similar_ids = [str(train_ids[j]) for j in current_index]
+                rag_dict[eval_id_key] = similar_ids
         else:
             print(f"No similar samples found for eval sample {i}")
     

@@ -23,7 +23,7 @@ class EmbeddingsDataset(Dataset):
         self.dataset = args.dataset
         
         # Load conversation data based on dataset
-        self.data_path = os.path.join(args.data_dir, f'conversation_{self.dataset}_{split}.json')
+        self.data_path = os.path.join(args.conversation_dir, f'conversation_{self.dataset}_{split}.json')
         predicate_path = f'pgm/predicates/{self.dataset}/{split}_vectors.pkl'
         
         with open(self.data_path, 'r') as f:
@@ -33,7 +33,7 @@ class EmbeddingsDataset(Dataset):
         self.predicates = self._load_pickle_data(predicate_path)
         
         # Get shared models
-        self.video_model, self.video_processor, self.sentence_model = shared_models.get_models()
+        self.video_model, self.video_processor, self.image_model, self.image_processor, self.sentence_model = shared_models.get_models()
         
         # Process all embeddings
         self._process_embeddings()
@@ -53,6 +53,14 @@ class EmbeddingsDataset(Dataset):
             else:  # drivelm
                 paths.append(item["image"])
         return paths
+    
+    @property 
+    def ids(self):
+        """Get list of ids from the dataset."""
+        ids = []
+        for item in self.data:
+            ids.append(item["id"])
+        return ids
     
     @property
     def texts(self):
@@ -139,9 +147,12 @@ class EmbeddingsDataset(Dataset):
         text_embeddings = self.sentence_model.encode(texts, convert_to_tensor=True, device=self.args.device)
         
         # Process videos
-        full_paths = [os.path.join(self.args.video_dir, path) for path in video_paths]
+        full_paths = [
+            os.path.join(self.args.data_dir, path) if not path.startswith(self.args.data_dir) else path
+            for path in video_paths
+        ]
         video_tensors = self.video_processor(full_paths, return_tensors='pt')['pixel_values']
-        video_embeddings = self.video_model(video_tensors.half()).view(-1, 2056, 1024).mean(1)
+        video_embeddings = self.video_model(video_tensors.half()).view(-1, 2056, 1024).mean(1).float()
         
         return text_embeddings.cpu(), video_embeddings.cpu()
     
@@ -151,16 +162,19 @@ class EmbeddingsDataset(Dataset):
         text_embeddings = self.sentence_model.encode(texts, convert_to_tensor=True, device=self.args.device)
         
         # Process images - convert lists to image paths
-        video_embeddings = []
+        image_embeddings = []
         for paths in image_paths:
-            full_paths = [os.path.join(self.args.video_dir, path) for path in paths]
-            video_tensors = self.video_processor(full_paths, return_tensors='pt')['pixel_values']
-            video_emb = self.video_model(video_tensors.half()).view(-1, 2056, 1024).mean(1).mean(0)
-            video_embeddings.append(video_emb)
+            full_paths = [
+                os.path.join(self.args.data_dir, path) if not path.startswith(self.args.data_dir) else path
+                for path in paths
+            ]
+            image_tensors = self.image_processor(full_paths, return_tensors='pt')['pixel_values']
+            image_emb = self.image_model(image_tensors.half()).view(-1, 6 * 256, 1024).mean(1).float()
+            image_embeddings.append(image_emb)
         
-        video_embeddings = torch.stack(video_embeddings)
+        image_embeddings = torch.cat(image_embeddings, dim=0)
         
-        return text_embeddings.cpu(), video_embeddings.cpu()
+        return text_embeddings.cpu(), image_embeddings.cpu()
     
     def _process_embeddings(self):
         """Process all embeddings in batches."""
@@ -195,7 +209,7 @@ class EmbeddingsDataset(Dataset):
                     # Extract text and image paths
                     text = self._extract_before_ids(item['conversations'][1]['value'])
                     image_paths = item["image"]
-                    signal = self._extract_vehicle_signals_drivelm(item["conversations"][0]["value"])
+                    signal = self._extract_vehicle_signals_drivelm(item["conversations"][-2]["value"])
                     
                     batch_texts.append(text)
                     batch_visual_paths.append(image_paths)
@@ -224,32 +238,20 @@ class EmbeddingsDataset(Dataset):
         # Concatenate all batches
         self.text_embeddings = torch.cat(all_text_embeddings)
         self.visual_embeddings = torch.cat(all_visual_embeddings)
+        self.signal_embeddings = torch.cat(all_signal_embeddings)
         
-        # Pad signal embeddings to consistent size
-        max_signal_len = max(emb.size(1) for emb in all_signal_embeddings)
-        padded_signal_embeddings = []
-        for emb in all_signal_embeddings:
-            if emb.size(1) < max_signal_len:
-                padding = torch.zeros(emb.size(0), max_signal_len - emb.size(1))
-                emb = torch.cat([emb, padding], dim=1)
-            padded_signal_embeddings.append(emb)
+        # normalization
+        self.text_embeddings /= self.text_embeddings.norm(dim=-1, keepdim=True)
+        self.visual_embeddings /= self.visual_embeddings.norm(dim=-1, keepdim=True)
         
-        self.signal_embeddings = torch.cat(padded_signal_embeddings)
-        
-        # Ensure all have same number of samples
-        min_samples = min(len(self.text_embeddings), len(self.visual_embeddings), 
-                         len(self.signal_embeddings), len(self.predicates))
-        
-        self.text_embeddings = self.text_embeddings[:min_samples]
-        self.visual_embeddings = self.visual_embeddings[:min_samples]
-        self.signal_embeddings = self.signal_embeddings[:min_samples]
-        self.predicates = self.predicates[:min_samples]
-        
-        print(f"Processed {min_samples} samples successfully!")
+        print(f"Processed {len(self.text_embeddings)} samples successfully!")
         print(f"Text embeddings shape: {self.text_embeddings.shape}")
         print(f"Visual embeddings shape: {self.visual_embeddings.shape}")
         print(f"Signal embeddings shape: {self.signal_embeddings.shape}")
         print(f"Predicate embeddings shape: {self.predicates.shape}")
+    
+    def get_feature_dims(self):
+        return self.signal_embeddings.shape[1], self.visual_embeddings.shape[1], self.predicates.shape[1] 
     
     def __len__(self) -> int:
         return len(self.text_embeddings)
@@ -261,3 +263,4 @@ class EmbeddingsDataset(Dataset):
             self.signal_embeddings[idx],
             self.predicates[idx]
         ) 
+    
