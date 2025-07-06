@@ -63,10 +63,16 @@ pip install flash-attn --no-build-isolation
 
 ### Dataset
 
-#### BDD-X
-The BDD-X dataset can be downloaded from [RagDriver's Google Drive](https://drive.google.com/file/d/14a3QTkWRelAZs-kW_2U5tjYcAm2l8VbF/view?usp=sharing). This dataset contains driving videos annotated with natural language explanations and control signals.
+We provide a bash script to automatically download and extract all required datasets (BDDX and DriveLM).
+Make sure git and git-lfs are installed and initialized:
+```bash
+## if you haven't installed the git-lfs
+sudo apt update && sudo apt install git git-lfs
+git lfs install
 
-drivelm dataset: [TODO]
+## download the dataset
+bash scripts/download_datasets.sh
+```
 
 After downloading, you should see under `data/` there should be `BDDX_Processed`, `BDDX_Test`, `DriveLM_train`, `DriveLM_val`.
 
@@ -74,8 +80,11 @@ After downloading, you should see under `data/` there should be `BDDX_Processed`
 We provide a bash script to automatically setup all base checkpoints.
 Make sure git and git-lfs are installed and initialized:
 ```bash
+## if you haven't installed the git-lfs
 sudo apt update && sudo apt install git git-lfs
 git lfs install
+
+## download the base models
 bash scripts/download_base.sh
 ```
 
@@ -84,7 +93,7 @@ bash scripts/download_base.sh
 We also provide some pretrained SafeAuto models on HuggingFace:
 
 - **BDD-X Dataset**: [SafeAuto-BDDX](https://huggingface.co/javyduck/SafeAuto-BDDX)
-- **DriveLM Dataset**: [SafeAuto-Drivelm](https://huggingface.co/javyduck/SafeAuto-Drivelm)
+- **DriveLM Dataset**: [SafeAuto-DriveLM](https://huggingface.co/javyduck/SafeAuto-DriveLM)
 
 ## 🚀 Quick Start
 
