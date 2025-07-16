@@ -124,11 +124,9 @@ It will load the finetuned model and do the inference on the evaluation dataset.
 
 # on bddx dataset
 bash scripts/eval_bddx.sh 0.01 0.35 true 2
-# on drivelm dataset
+# on drivelm dataset [TODO: integrate PGM safety verification]
 bash scripts/eval_drivelm.sh 0.01 0.35 true 1
 ```
-
-[TODO: add the code for safety verification]
 
 ### Evaluation
 Get the accuracy of the prediction on high level/ low level prediction.
@@ -177,7 +175,7 @@ This section illustrates how to train a SafeAuto model from scratch. The complet
 
 ### 🔧 Step-by-Step Training Instructions
 
-#### 1. PGM Training & Environment Predicate Collection
+#### 1.PGM Training & Environment Predicate Collection
 
 Here we use Markov Logic Networks (MLNs), which are a type of Probabilistic Graphical Model (PGM). MLNs encode traffic rules as first-order logic formulas and verify predicted actions:
 
@@ -188,7 +186,31 @@ StopSign(x) ⇒ Stop(x) ∨ Decelerate(x)
 NoLeftTurnSign(x) ⇒ ¬TurnLeft(x)
 ```
 
-*[TODO: Instructions for training the Probabilistic Graphical Model and collecting environment predicate vectors will be added here]*
+Configure predicates and traffic rules in `pgm/config.py`. The predicates include:
+- **Unobserved Predicates**: Potential vehicle actions
+- **Environment Predicates**: Traffic conditions
+- **MLLM Action Predicates**: High-level actions suggested by the MLLM
+
+Use an object detection model to extract environment predicates ( A fine-tuned YOLOv8 model is provided in `pgm\ckpts\YOLO`):
+
+```bash
+# For BDD-X dataset
+python -m pgm.bddx_predicate_extractor --info_root "data/BDDX_Test/info"
+
+# For DriveLM Dataset [TODO]
+```
+This step:
+- Retrieves environment predicates and extract unobserved predicates
+- Generates environment predicate vectors for use in the RAG model.
+
+Train the PGM with environment predicate vectors:
+```bash
+# For BDD-X Dataset
+python -m pgm.pgm --dataset bddx 
+
+# For DriveLM Dataset
+python -m pgm.pgm --dataset drivelm 
+```
 
 #### 2. Multimodal RAG Training
 
@@ -263,11 +285,9 @@ Perform inference on the evaluation dataset with PGM safety verification:
 # Inference on BDD-X dataset
 bash scripts/eval_bddx.sh 0.01 0.35 true 2
 
-# Inference on DriveLM dataset
+# Inference on DriveLM dataset [TODO: integrate PGM safety verification]
 bash scripts/eval_drivelm.sh 0.01 0.35 true 1
 ```
-
-[TODO: add the instruction for safety verification]
 
 This step:
 - Loads the fine-tuned model

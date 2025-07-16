@@ -21,10 +21,16 @@ formatted_final_sigma=$(printf "%.2f" $final_sigma)
 
 # Model checkpoint path
 MODEL_PATH="./checkpoints/Video-LLaVA-7B_safeauto_bddx_${formatted_init_sigma}-${formatted_final_sigma}_${suffix}"
+# PGM path
+PGM_PATH="./pgm/ckpts/pgm/bddx_weights.npy"
+# Extraction path
+EXTRACTION_PATH="./data/extraction/bddx/extraction_bddx_eval.json"
 
 # Run evaluation
 CUDA_VISIBLE_DEVICES=$cuda_id python -m llava.serve.eval_custom_predsig_bddx \
     --model-path ${MODEL_PATH} \
+    --pgm-path ${PGM_PATH} \
+    --extraction-path ${EXTRACTION_PATH} \
     --input data/conversation/bddx/${eval_file} \
     --output "results/bddx_${formatted_init_sigma}-${formatted_final_sigma}_${suffix}"
 
