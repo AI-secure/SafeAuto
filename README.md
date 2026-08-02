@@ -124,7 +124,7 @@ It will load the finetuned model and do the inference on the evaluation dataset.
 
 # on bddx dataset
 bash scripts/eval_bddx.sh 0.01 0.35 true 2
-# on drivelm dataset [TODO: integrate PGM safety verification]
+# on drivelm dataset
 bash scripts/eval_drivelm.sh 0.01 0.35 true 1
 ```
 
@@ -137,9 +137,10 @@ python evaluate_bddx.py --path bddx_0.01-0.35_rag_top2 --caption
 
 # Evaluate low level
 python evaluate_bddx.py --path bddx_0.01-0.35_rag_top2 --signal
-```
 
-[TODO] Add evaluation script on drivelm.
+# Evaluate behavior prediction on drivelm
+python evaluate_drivelm.py --path drivelm_0.01-0.35_rag_top1
+```
 
 ## 🧮 Training from Scratch
 
@@ -197,23 +198,29 @@ Use an object detection model to extract environment predicates ( A fine-tuned Y
 # For BDD-X dataset
 python -m pgm.bddx_predicate_extractor --info_root "data/BDDX_Test/info"
 
-# For DriveLM Dataset [TODO]
+# For DriveLM dataset (rebuild predicate vectors from the released extraction files)
+python -m pgm.drivelm_predicate_extractor --split train
+python -m pgm.drivelm_predicate_extractor --split eval
 ```
 This step:
 - Retrieves environment predicates and extract unobserved predicates
 - Generates environment predicate vectors for use in the RAG model.
+
+For DriveLM, the extraction results are released at `data/extraction/drivelm/extraction_drivelm_{train,eval}.json`; regenerating them from raw data additionally requires the NuScenes dataset (with the map expansion) and `nuscenes-devkit` — see `DriveLMExtractor` in `pgm/drivelm_predicate_extractor.py`.
 
 Train the PGM with environment predicate vectors:
 ```bash
 # For BDD-X Dataset
 python -m pgm.pgm --dataset bddx 
 
-# For DriveLM Dataset [TODO]
+# For DriveLM Dataset
+python -m pgm.pgm --dataset drivelm --learning_rate 0.01
 ```
 
 Notes:
-- The original BDD-X PGM checkpoint used in the paper is provided at `pgm/ckpts/pgm/bddx_weights.npy`, so this step is only needed if you want to retrain with your own predicates/rules.
-- The released predicate vectors (`pgm/predicates/bddx/*.pkl`) contain only the observed predicates (actions + environment + control signals). The MLLM action predicates are unknown before the MLLM is trained, so when retraining from these vectors `pgm.pgm` automatically zero-pads them, which makes MLLM-related rules trivially satisfied during training; their weights stay at the initial value and only take effect at inference. (The shipped checkpoint was trained with the MLLM action predicates included, using the MLLM's predictions on the training set.)
+- The original PGM checkpoints used in the paper are provided at `pgm/ckpts/pgm/bddx_weights.npy` and `pgm/ckpts/pgm/drivelm_weights.npy`, so this step is only needed if you want to retrain with your own predicates/rules.
+- Training prefers the full predicate vectors (`pgm/predicates/*/train_pgm_vectors.pkl`, which include the MLLM action predicates and match the released checkpoints) and falls back to the observed-only vectors (`train_vectors.pkl`); in the fallback the missing MLLM block gets zero-padded, so MLLM-related rules are trivially satisfied during training, keep their initial weights, and only take effect at inference.
+- `pgm/predicates/{bddx,drivelm}/{train,eval}_vectors.pkl` are the predicate vectors consumed by the RAG model (for DriveLM they contain only the condition predicates).
 
 #### 2. Multimodal RAG Training
 
@@ -288,7 +295,7 @@ Perform inference on the evaluation dataset with PGM safety verification:
 # Inference on BDD-X dataset
 bash scripts/eval_bddx.sh 0.01 0.35 true 2
 
-# Inference on DriveLM dataset [TODO: integrate PGM safety verification]
+# Inference on DriveLM dataset
 bash scripts/eval_drivelm.sh 0.01 0.35 true 1
 ```
 

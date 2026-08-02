@@ -1,5 +1,7 @@
 import argparse
+import re
 import torch
+import numpy as np
 
 from llava.constants import X_TOKEN_INDEX, DEFAULT_X_TOKEN, DEFAULT_X_START_TOKEN, DEFAULT_X_END_TOKEN
 from llava.conversation import conv_templates, SeparatorStyle
@@ -14,6 +16,11 @@ from transformers import TextStreamer
 import os
 import json
 from tqdm import tqdm
+from pgm.pgm import DriveLMPGM
+from pgm.config import DriveLM
+from pgm.drivelm_predicate_extractor import behavior_to_actions, question2option, condition_vector
+
+BEHAVIOR_QUESTION_KEY = "Predict the behavior of the ego vehicle"
 
 def load_image(image_file):
     if image_file.startswith('http://') or image_file.startswith('https://'):
@@ -24,18 +31,62 @@ def load_image(image_file):
     return image
 
 
+def parse_option_letter(answer):
+    match = re.search(r'\b([A-D])\b', answer)
+    return match.group(1) if match else None
+
+
+def pgm_verify_behavior(pgm, config, segment, question, answer):
+    """Post-safety verification of a behavior answer (multiple choice).
+
+    Ranks (velocity, direction) action pairs by PGM probability given the
+    observed conditions and the MLLM-suggested actions, then finds the options
+    matching the most probable pair. The MLLM answer is kept when it is among
+    them; otherwise it is replaced by the top-ranked legal option.
+    """
+    options = question2option(question)
+    letter = parse_option_letter(answer)
+    if not options or letter is None:
+        return answer
+    descriptions = dict(options)
+    llm_actions = behavior_to_actions(descriptions.get(letter))
+    cond = np.array(condition_vector(segment, llm_actions))
+    (velo_probs, dire_probs), _ = pgm.infer_action_probability(cond)
+    option_actions = [(l, set(behavior_to_actions(desc))) for l, desc in options]
+    v_num = config.velocity_action_num
+    probable_answers = []
+    for d_idx in np.argsort(-dire_probs):
+        for v_idx in np.argsort(-velo_probs):
+            pair = {config.action_list[v_idx], config.action_list[d_idx + v_num]}
+            probable_answers = [l for l, acts in option_actions if acts == pair]
+            if probable_answers:
+                break
+        if probable_answers:
+            break
+    if not probable_answers or letter in probable_answers:
+        return answer
+    return probable_answers[0]
+
+
 def main(args):
     # Questions:
 
     json_file = args.input
     os.makedirs(args.output, exist_ok=True)
     out_json_paths = [f"{args.output}/DrivingLM_Test_pred.json"]
-    
+
     # Model
     disable_torch_init()
     model_name = get_model_name_from_path(args.model_path)
     tokenizer, model, processor, context_len = load_pretrained_model(args.model_path, args.model_base, model_name,
                                                                      args.load_8bit, args.load_4bit, device=args.device)
+
+    # PGM safety verification
+    config = DriveLM()
+    pgm = DriveLMPGM(config, weights=np.load(args.pgm_path))
+    with open(args.extraction_path, 'r') as f:
+        extraction = {inst['id']: inst for inst in json.load(f)}
+
     # print(model, tokenizer, processor)
     # image_processor = processor['image']
     # use image processor to handle the six images from video
@@ -58,7 +109,7 @@ def main(args):
 
     # Pred
     out_jsons = [[]]
-    
+
     for item in tqdm(data):
         prediction = []
         qs = [q["value"] for q in item["conversations"][::2]]
@@ -67,25 +118,25 @@ def main(args):
             roles = ('user', 'assistant')
         else:
             roles = conv.roles
-            
+
         vps, vid = item["image"], item['id']
-        
+
         video_paths = [vp for vp in vps]
 
-        
+
         video_tensor = [video_processor(video_path, return_tensors='pt')['pixel_values'] for video_path in video_paths]
         if type(video_tensor) is list:
             tensor = [[video.to(model.device, dtype=torch.float16) for video in video_tensor]]
         else:
             tensor = video_tensor.to(model.device, dtype=torch.float16)
-            
+
         key = ['image']
-        
+
         inst_answers = []
         for qid, question in enumerate(qs):
             # print(question)
             inp = question
-            
+
             if vps is not None:
                 # First Message
                 # inp = DEFAULT_X_TOKEN['VIDEO'] + '\n' + inp
@@ -105,7 +156,7 @@ def main(args):
             stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
             streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
 
-            
+
             # import pdb;pdb.set_trace()
             with torch.inference_mode():
                 output_ids = model.generate(
@@ -120,12 +171,24 @@ def main(args):
 
             outputs = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
             conv.messages[-1][-1] = outputs
+            caption = outputs.replace("</s>", "")
+
+            # PGM safety verification on the behavior question; the corrected
+            # answer replaces the model output in the conversation context so
+            # that follow-up questions condition on it.
+            if BEHAVIOR_QUESTION_KEY in question and vid in extraction:
+                verified = pgm_verify_behavior(pgm, config, extraction[vid], question, caption)
+                if verified != caption:
+                    print(f"[PGM] {vid}: {caption!r} -> {verified!r}")
+                    caption = verified
+                    conv.messages[-1][-1] = verified + "</s>"
+
             if args.debug:
                 print("\n", {"prompt": prompt, "outputs": outputs}, "\n")
-                
+
             inst_pred = {
                 "image_id":vid,
-                "caption":outputs.replace("</s>","")
+                "caption":caption
             }
             prediction.append(inst_pred)
         out_jsons[0].append(prediction)
@@ -144,6 +207,8 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model-path", type=str, default="facebook/opt-350m")
+    parser.add_argument("--pgm-path", type=str, default="./pgm/ckpts/pgm/drivelm_weights.npy")
+    parser.add_argument("--extraction-path", type=str, default="./data/extraction/drivelm/extraction_drivelm_eval.json")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--conv-mode", type=str, default=None)

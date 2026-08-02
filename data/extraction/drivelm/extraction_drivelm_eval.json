@@ -1,0 +1,5645 @@
+[
+    {
+        "id": "8377abf77f464a9cb62eacf63f383422_c5fc747cb34f44d78820ae649d183e93",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "9709626638f5406f9f773348150d02fd_291d30843273487c96a7dc86f79a030f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "93608f0d57794ba6b014314c488e2b4a_b92ee1ed90c242d18bce9a8fdbbeb8d8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing",
+            "signalAhead"
+        ]
+    },
+    {
+        "id": "c3ab8ee2c1a54068a72d7eb4cf22e43d_f3c9f3e85f384381bfced8c2a863376f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "26a6b03c8e2f4e6692f174a7074e54ff_d0e49a3a29814c37a2d1c8c1b946653c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "696a45dbd11346b794fdce43fa0a1770_6a32920ad3b44cff8a51f02a65713f58",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "NIL_LEFT"
+        ]
+    },
+    {
+        "id": "0e7ede02718341558414865d5c604745_e2bc12ef4caf4703892c2a4ed0166e79",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "01e4fcbe6e49483293ce45727152b36e_86a69236763d42bf9da6247b8bcd88bb",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "a2b005c4dd654af48194ada18662c8ca_4cc584c2913742e690f757531deaca80",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "aedcd3cf7c4a49d7a4a43ab7443a9eb1_4db81eb6876646ab83cd85305e533df1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "905cfed4f0fc46679e8df8890cca4141_9b0ff6d0f7c14ea4b7643b8219e5998f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "197a7e4d3de84e57af17b3d65fcb3893_2f1fd75cc1f143509dfd4982738da9fe",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "dce6f3f2bf6b4859abcf3268581969d3_7805fe90851940b195c31d3d5062329e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "ca6e45c25d954dc4af6e12dd7b23454d_ad6cb1691dbd40669381492fc63b3b8c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d29527ec841045d18d04a933e7a0afd2_3e8bbbf0221e48219f2ab2cf30bd0a92",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "01e4fcbe6e49483293ce45727152b36e_deeb650a84054a07917eb84e21a358de",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "d1e57234fd6a463d963670938f9f556e_a3a642471c514dcaa0d1c9c349f16557",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "a7d073bc435b4356a0a9a5ebfb61f229_72359f16eac8449b96dc406f28c93e0d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "16be583c31a2403caa6c158bb55ae616_5c7520cf0a4e4162909f2103b83f66b5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b51869782c0e464b8021eb798609f35f_e9b9031b8f5f41e89bd5eed158feaf14",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "85889db3628342a482c5c0255e5347e9_016de52682c840a2be5a393e3fb92c29",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "93608f0d57794ba6b014314c488e2b4a_b6354702127042f6b3a3ca6143296331",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing",
+            "signalAhead"
+        ]
+    },
+    {
+        "id": "91f797db8fb34ae5b32ba85eecae47c9_943884d0b74546ee8d6a18ab456159a5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d1e57234fd6a463d963670938f9f556e_c46eaf0c8a9d40bdb8c7112cff75f701",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "696a45dbd11346b794fdce43fa0a1770_204ed03554974215b9345d58b09082f4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "NIL_LEFT"
+        ]
+    },
+    {
+        "id": "b07358651c604e2d83da7c4d4755de73_dbf629744e7b4deb8929ef6323a5feb5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "07aed9dae37340a997535ad99138e243_2da362aa50914fb69f1206e4161c2b49",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "f2541977a00a448db9b46a32187d9059_1263172dcdf2494c9d4b252875233079",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "21a7ba093614493b83838b9656b3558d_f283d4f95ae54ef6aad442186245a667",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "fcbccedd61424f1b85dcbf8f897f9754_796b1988dd254f74bf2fb19ba9c5b8c6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "a499ee875da34e2b9655afb999edb8a9_d05a95e0449b48b1a964849f3d7849f4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "55b3a17359014f398b6bbd90e94a8e1b_0071536e4d774034a135085c3f08890e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "noRightTurn"
+        ]
+    },
+    {
+        "id": "cba3ddd5c3664a43b6a08e586e094900_c086941272e24fefad3e65d65760aed4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "6a24a80e2ea3493c81f5fdb9fe78c28a_57a64e60a3e64b718b1193ef9ac908d4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "3045ed93c2534ec2a5cabea89b186bd9_faa05ab5fda04775aaadeb26b82a673c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "e7ef871f77f44331aefdebc24ec034b7_08254b97198045d98009af51d144d147",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "a2b005c4dd654af48194ada18662c8ca_3a531d4d6845432bb087cca72843c066",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "5521cd85ed0e441f8d23938ed09099dd_fbab76edbaed4c9dbd217a1c011c80b1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "84e056bd8e994362a37cba45c0f75558_9a897c585ce04962b0d35b7cfd3b3572",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "fb73d1a6c16147ee9416faf6b310fadb_03f6a362b0774343b475ec45be465a87",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "yield",
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "4962cb207a824e57bd10a2af49354b16_b8e720d836274c5da346f7e8a46b8a5f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "speedLimit25"
+        ]
+    },
+    {
+        "id": "f2541977a00a448db9b46a32187d9059_376e84a454c149288f65ab76b8d970ad",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "c92fdd793fbb4401b12782a9b8d4a499_c2ca0236b2994dd8973b0aa94b126df6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "01e4fcbe6e49483293ce45727152b36e_0f1d636d7dc84c90b69d039dac4404f6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "85889db3628342a482c5c0255e5347e9_9b5678cae57643908e22f01ca710d135",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "1aa633b683174280b243e0a9a7ad9171_0791e7e86b98473795eeffe238d6c13b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "d01e7279da2649ef896dc42f6b9ee7ab_0a4e46a98e424bf1a9b79800a6114868",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "84e056bd8e994362a37cba45c0f75558_0e6efc712c9e47ac95d5dd133007c3c9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "9068766ee9374872a380fe75fcfb299e_6b5497fed3554da7869ab1af98947cb3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "speedLimitUrdbl"
+        ]
+    },
+    {
+        "id": "85889db3628342a482c5c0255e5347e9_7f86adb3a3ee43e7b69a410b28ef6ab0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "54f56f80350b4c07af598ee87cf3886a_c7fee57d96304d868dc8a2b187295c0b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "bd338b912ce9434995b29b6dac9fbf1d_935ddd79f2cc4b6a81395cde46290fff",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d3b86ca0a17840109e9e049b3dd40037_84ba798eaddf49b0b00b8eb1a64ed7fc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "cb3e964697d448b3bc04a9bc06c9e131_0483ca827e3a49ac99b989364a1d2225",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "speedLimitUrdbl"
+        ]
+    },
+    {
+        "id": "93608f0d57794ba6b014314c488e2b4a_a7e83e3b5cd24948a58c93c66ba54d77",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "a2b005c4dd654af48194ada18662c8ca_2c803b9f16f043289d442641f65265b9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "acc29386502047339e1ec6b9c7e512d2_cecb41d3a0b243c3b0d37a269ce855ad",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "3f90afe9f7dc49399347ae1626502aed_9c067e5c04844ce29ea01b1f1deea057",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "16e50a63b809463099cb4c378fe0641e_5ef15615bc08428bab23b2a84e84961e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "e8834785d9ff4783a5950281a4579943_e004cf11fde44ad89b1bd79edff64150",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "c65c4acf86954f8cbd53a3541a3bfa3a_1e4b165a3a904717b30f044322edfa14",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "5a0dd8908a3a459b83ec5eb6ac7d0f82_a85e915244be4644ba830af4cf4aaf45",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "3927699fa562451a98bb13bf8405361d_db32a1f21a8b49989746a09ceab49905",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "speedLimit35"
+        ]
+    },
+    {
+        "id": "3a2d9bf6115f40898005d1c1df2b7282_0fb4fd80495946268853f2a9183240a0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "8180a1dbbba3479bb0c7f4ff6e9a3f0e_86287c78bf494502ae0b6110c162b63d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "afd73f70ff7d46d6b772d341c08e31a5_bdcb762d6df842358056925b1143e961",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "080a52cb8f59489b9cddc7b721808088_16ada52c6b734169879b2c296f5434d3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "656bb27689dc4e9b8e4559e3f6a7e534_bc06995dc3674a41b2c90ba219954932",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "4bb9626f13184da7a67ba1b241c19558_3c39b000dc2d42338f2a4567f65b2ae7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "9f1f69646d644e35be4fe0122a8b91ef_a4be46a1e7d24df3b14fe5322c65df71",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "c4df079d260241ff8015218e29b42ea7_0ec96f37d1624e9a8813c59f851dc97c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "26a6b03c8e2f4e6692f174a7074e54ff_c0e2f27544394606b5edf7b1014705b1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3363f396bb43405fbdd17d65dc123d4e_2878a9ab393f42a2bbb426d8a14690d9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "5eaff323af5b4df4b864dbd433aeb75c_f954522c65fe49208c969909442ca375",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "952cb0bcd89b4ca4b904cdcbbf595523_401f75dc5d1541ad8e7ebd4cc6f50e94",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_YELLOW_LEFT"
+        ]
+    },
+    {
+        "id": "0e7ede02718341558414865d5c604745_66e594111d0e44fe8ef57d222f1830a7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "efa5c96f05594f41a2498eb9f2e7ad99_1fe2834ee41a4f81b8323b27d92139d1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "813213458a214a39a1d1fc77fa52fa34_2c63d07c2c0345539a1839bfcab22579",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "b4b82c4d338a4b6d86835388ce076345_1c99c1f837fa457085f86e4afab500ed",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "30a1a4ccd60047b4a22ee3bf0645f3ad_814f40cea21041308224320c40274e51",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "3f90afe9f7dc49399347ae1626502aed_6a7c14962a5c470fa286c355215e8a8c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_YELLOW_LEFT"
+        ]
+    },
+    {
+        "id": "e036014a715945aa965f4ec24e8639c9_89cf671dfd6843fca98f6a12a6f03cc3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "4bb9626f13184da7a67ba1b241c19558_e2f8a076219842f990ab826c9c4e5aab",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e8099a6136804f3bb9b38ff94d98eb64_baf74406530343b3938586c496916614",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6a24a80e2ea3493c81f5fdb9fe78c28a_36d5a801125d4e0e8601cd4dbd224c9b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "16e50a63b809463099cb4c378fe0641e_bc73130bbe4e4361922e99edbed1d8e6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "fcc020250f884397965ba00c1d9ad9e6_ed00973ef2814a90b76417d73362c2ed",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "01e4fcbe6e49483293ce45727152b36e_5052ec0021f64f35ac8300aee5f84349",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b94fbf78579f4ff5ab5dbd897d5e3199_5c60bb1dd0b4423b9e619fc21d523b16",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "e7ef871f77f44331aefdebc24ec034b7_b10f0cd792b64d16a1a5e8349b20504c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "cba3ddd5c3664a43b6a08e586e094900_11514e9bc4184a1f8bcdc1fe7aafad2d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "3dd2be428534403ba150a0b60abc6a0a_de550f4c35284f90844c07a64253639b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "c4df079d260241ff8015218e29b42ea7_6742957ced7b491c939169eaccaf3e64",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "19d97841d6f64eba9f6eb9b6e8c257dc_c64a7057e90d43eea2b5e844ca7a49b1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "64bfc5edd71147858ce7446892d7f864_bcb4f1b8e8af4cbd855f89096d822e69",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "e60ef590e3614187b7800db3e5284e1a_0369bccd1def49f19ac972aaba5c3228",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "21a7ba093614493b83838b9656b3558d_8b830239436f46d3b0b90de4cc4c0546",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "91f797db8fb34ae5b32ba85eecae47c9_03c4ae55f4f747ea89deb0834aa0a125",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "2ca15f59d656489a8b1a0be4d9bead4e_1192c1448ec044ef97df3078e92032eb",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "5301151d8b6a42b0b252e95634bd3995_a027c6b262db48f79a281d674775a778",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "fcc020250f884397965ba00c1d9ad9e6_ecb02ec960ee419e93ba9b7ca097f39e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "b94fbf78579f4ff5ab5dbd897d5e3199_b58468bede76466aa930983808b6ad29",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "991d65cab952449a821deb32e971ff19_c916e25dc9324cfc9ae11c2ee94c628d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "68e79a88244f447f993a72da444b29ba_fd27366f4f1c4df3ae73e27f8d469db1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "6f83169d067343658251f72e1dd17dbc_27900b9c3cfb48ed8b49087098d4a15a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "d3b86ca0a17840109e9e049b3dd40037_d07db190a3c14383b739d298818570e6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "68e79a88244f447f993a72da444b29ba_05cf2a68a2cf4ff1838034f8ecae0c82",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_LEFT",
+            "signalAhead"
+        ]
+    },
+    {
+        "id": "6a24a80e2ea3493c81f5fdb9fe78c28a_dfa48a639ca54273906096ebbd03660e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "d01e7279da2649ef896dc42f6b9ee7ab_564de1d8feca41b8b9d356bad410d611",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "ed242d80ccb34b139aaf9ab89859332e_6ada9478bb09410c9bccaedb6d557215",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "54f56f80350b4c07af598ee87cf3886a_b0baddf1fe7a48169d035ef788ba63db",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "a2b005c4dd654af48194ada18662c8ca_ecb7bc8b12064ecd8a7e958c7172d46a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "8377abf77f464a9cb62eacf63f383422_5484714099f84b6c90d7db7fa8673073",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "9709626638f5406f9f773348150d02fd_2128fc958907421ca888ab014a73348a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "9f1f69646d644e35be4fe0122a8b91ef_9a1174901ea1401a9972a44616214c9b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "0ac05652a4c44374998be876ba5cd6fd_a08cf86f5b2a4f5abdee5756820aa66f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "36f27b26ef4c423c9b79ac984dc33bae_2ebfc5ae282a472aa090b4e839b7bd4b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing",
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "9068766ee9374872a380fe75fcfb299e_440a528da74b42f19d46b648a3a6eccb",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "3dd2be428534403ba150a0b60abc6a0a_50a05815453843d59bc3a77910df455d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "07aed9dae37340a997535ad99138e243_8b3bb59e6d0e4da69b314c10d6b35be8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "ed242d80ccb34b139aaf9ab89859332e_7c976cd4bd81403b8294e51b81d52f4d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "8edbc31083ab4fb187626e5b3c0411f7_edc5f9bd039342cb9403a18d2cee773d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "656bb27689dc4e9b8e4559e3f6a7e534_14c2fb7926b5423a842f8a7f1240e977",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "ed242d80ccb34b139aaf9ab89859332e_57f43a802933455389ec31a2a16c551f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "bed67ef03c4a4066a74f6c0117d512ee_16333de9bc924f1b9f893c6285077c6c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "aedcd3cf7c4a49d7a4a43ab7443a9eb1_c6e8a3362094465d93eebf120c672d6c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "9709626638f5406f9f773348150d02fd_4de831d46edf46d084ac2cecf682b11a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "080a52cb8f59489b9cddc7b721808088_d929c9294e4348c58edceeb460d2e083",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "f24b4682fbb9482aba149534deed1cc9_ff16605ea58741f4a23989424a85907e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "325cef682f064c55a255f2625c533b75_858a1ece22cf45d9bc71e42336604b78",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "197a7e4d3de84e57af17b3d65fcb3893_8c42fb380f2e4b32844d6fe6179e81f2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "bed67ef03c4a4066a74f6c0117d512ee_830cac6f99a749d0bf708f8db07e4808",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "noLeftTurn"
+        ]
+    },
+    {
+        "id": "85651af9c04945c3a394cf845cb480a6_45df585aa5fb4972986093b353bae03f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "c92fdd793fbb4401b12782a9b8d4a499_d306acdeeb6845628f70c84ea0796e76",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "76ceedbcc6a54b158eba9945a160a7bc_a6711744e6774baabc4c50d0f8bc81be",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "NIL_LEFT"
+        ]
+    },
+    {
+        "id": "a2b005c4dd654af48194ada18662c8ca_f935a403f62f4bd790e3f6e082b8141a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "7bd098ac88cb4221addd19202a7ea5de_3ad79c1436ab441795d4d73ae0b503d5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "e005041f659c47e194cd5b18ea6fc346_4f5b8cae7b4c400d8e730eee45927118",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "ddb615d9bb22484cabc6545b632a1025_e14dc295bf8f4cca8bbea7fa0068b6ef",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "034dee1695304630b0692da8c1f153fc_c282419dd0d94aefab995f18ff0e179d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "6f83169d067343658251f72e1dd17dbc_b8766f4291d5449d95bab459ca724ad8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "2abb3f3517c64446a5768df5665da49d_a3da8976af104ae7a48a186c610a229a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "2ed0fcbfc214478ca3b3ce013e7723ba_f644a6fcf700456db690440944fbe3d2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "c164a8e8e8b8489f964f711f472789be_a80271ef82594202879bb2a44aa5c172",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "16e50a63b809463099cb4c378fe0641e_f56b256d74d5484fbb1be4ac42546a7c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "ee48ee50025e40b4ae27dbdf84d92825_5851cb9fc1b14618835038aab8602098",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopAhead"
+        ]
+    },
+    {
+        "id": "e6f1a7e6218a4737bfedc6af90926b3e_1a776100d0974c0b9edc9bb80a842b54",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "c92fdd793fbb4401b12782a9b8d4a499_5bdc6f6d074b4749a5dae9ed57f0eba7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "fb73d1a6c16147ee9416faf6b310fadb_b38d8cf878e54d3a8f025af620fa2f97",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "truckSpeedLimit55"
+        ]
+    },
+    {
+        "id": "a7d073bc435b4356a0a9a5ebfb61f229_a9b01bcbf47f43a89b0e1b60b5813aae",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "6a24a80e2ea3493c81f5fdb9fe78c28a_94d4b003f88f4ebb96c00707c03b1ea5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "merge"
+        ]
+    },
+    {
+        "id": "5301151d8b6a42b0b252e95634bd3995_a859b4d1024a4157bbc8095bb7a671b5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b51869782c0e464b8021eb798609f35f_e22c0bbea22343e7beffd77c44679a83",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "e6f1a7e6218a4737bfedc6af90926b3e_6b9a36508b994d95927d7b2af790db05",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "223096a415cc45bf8ecd4c3a42251fd7_2b78a8099c93418097ce1f2807e23618",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "f24b4682fbb9482aba149534deed1cc9_74d649738c4c4cdc90f6d70797195775",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "32185f91e68f4069ab3cdd2f4f1a4ff1_2402ba90f72345d2abbc04224afd0330",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "991d65cab952449a821deb32e971ff19_e8a68d5703164e449e045364ab890e03",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "bd338b912ce9434995b29b6dac9fbf1d_f7a93963d6cc431099c3e6943cda4d72",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "fb73d1a6c16147ee9416faf6b310fadb_4b5202b4625f48799812af5d212e68a4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "e8834785d9ff4783a5950281a4579943_ea55d8b565a54b8785b97c5610952ef0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6776b91389394ff18e57b269863b4dbf_e2024bdcef0f47f98735a0811cb3b17b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "656bb27689dc4e9b8e4559e3f6a7e534_32608dbad42d4ecb83a9348a9b6c2dbb",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "080a52cb8f59489b9cddc7b721808088_c3286d413f524369ac040fbcd0b0e9b6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "3ada261efee347cba2e7557794f1aec8_7cf16327f4c04fb991706142824b9233",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "16e50a63b809463099cb4c378fe0641e_bca4a3f7ae0748c3b7b2f6e537c1518c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "4962cb207a824e57bd10a2af49354b16_51499cd837e04024a7b26c5969c8645a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3ada261efee347cba2e7557794f1aec8_9a9c05fe0e70410ea3afd0de471131c0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "yield",
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3f90afe9f7dc49399347ae1626502aed_af67f465f5994ac7bab19825336db644",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "efa5c96f05594f41a2498eb9f2e7ad99_48de6a86245f44bdbf4921d2695cd6a8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "6741d407b1b44511853e5ec7aaee2992_244f3bb0a98149b8a0cf4ecd1719cf31",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "201b7c65a61f4bc1a2333ea90ba9a932_b22ec0c7883143c6a201e71ab917da7a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "0dae482684ce4cd69a7258f55bc98d73_d73837c92a1147cc98bcb87122d466b1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "7e8ff24069ff4023ac699669b2c920de_b485d79c3d6141f989ca7a3f8b6989f3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "6776b91389394ff18e57b269863b4dbf_0172553716964bab85e05a5a58b37ee4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3045ed93c2534ec2a5cabea89b186bd9_3cc7d2152d6042708f0935f99552e0d8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "c92fdd793fbb4401b12782a9b8d4a499_dcfd47c0dab94cf79e49221da90564b9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "c3ab8ee2c1a54068a72d7eb4cf22e43d_b06a815164ec466f9fdb525522bb3799",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "91c071bcc1ad4fa1b555399e1cfbab79_c2e56200cb7d46b6a93fb4ec389f4ba9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "d87ec0461e3f4c4ea29b0f0c0ede5167_55318b9eaf1c4633aff259d87b1bd334",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "36f27b26ef4c423c9b79ac984dc33bae_12494592c7614f2992bca2614f6b04e6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "5af9c7f124d84e7e9ac729fafa40ea01_9d0e1d796b20401a862602bb02d613b4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "85889db3628342a482c5c0255e5347e9_c437abdd39f94ecca54ecab3d458999f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d87ec0461e3f4c4ea29b0f0c0ede5167_946040cd49c64a8f9e58d32175b9936f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "85651af9c04945c3a394cf845cb480a6_5aca10a9fd0249e2a1604aa1ab8904d9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "84e056bd8e994362a37cba45c0f75558_458b0a25e52c42d7b581259bb164d952",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6af9b75e439e4811ad3b04dc2220657a_2ee8eafc070e45679c9c4cf8a695aeb7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d7bacba9119840f78f3c804134ceece0_c94e416f271641fab8c1a2e3b9758979",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "905cfed4f0fc46679e8df8890cca4141_12ff7289d0664b9293bbdecf2d17d091",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "6f83169d067343658251f72e1dd17dbc_3ffc4360d1084e6eae5067e87d79503f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "d87ec0461e3f4c4ea29b0f0c0ede5167_783ff0de60574dbcb9ba4773fcbb10e2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "9d1307e95c524ca4a51e03087bd57c29_f2758f85e46f41fcb5375f13b498fd60",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "c164a8e8e8b8489f964f711f472789be_42752758fe0a460e8eb8ec6e16de0ba3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "7061c08f7eec4495979a0cf68ab6bb79_6d1abf2d329c483d923683764e9df8b5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "c65c4acf86954f8cbd53a3541a3bfa3a_4dfb0052fe944420acddf5d376755dff",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "rightLaneMustTurn"
+        ]
+    },
+    {
+        "id": "6776b91389394ff18e57b269863b4dbf_bceab9713c1f465086a7449e4d91ca4d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "931c5c57011944459bba3825ab8777a9_c6451286f94f4d79b362be84f53122d2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "ed242d80ccb34b139aaf9ab89859332e_16270c2e4ee142a69e9af1dfb1466867",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "01452fbfbf4543af8acdfd3e8a1ee806_8ae5818912bf4a8db24b1690d83034ac",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3927699fa562451a98bb13bf8405361d_6323d1a186e7440084cd1a90e7ea610c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "2ca15f59d656489a8b1a0be4d9bead4e_32d941ca626c458381f13c0c7ab267b8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "04219bfdc9004ba2af16d3079ecc4353_90bf8cc6d6c340859bbb99056a0e7e8e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "f5b29a1e09d04355adcd60ab72de006b_e0798ceaab2e4b67b0a530ca96337943",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "16e50a63b809463099cb4c378fe0641e_0849315c62f8452ea3614656c362c79c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "c525507ee2ef4c6d8bb64b0e0cf0dd32_9709a4b7190f4e7a8f6edcd05316b811",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "acc29386502047339e1ec6b9c7e512d2_6409f6f3378044b4bb58446424d74a1a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "7052d21b95fc4bae8761b8d9524f3e42_590dfd438d7349b5923a49b9d71a952a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "ec7b7459461e4da1a236ba23e22377c9_be0a9469f1d846d8ab9b87d49b00a442",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6f83169d067343658251f72e1dd17dbc_6dabc0fb1df045558f802246dd186b3f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "223096a415cc45bf8ecd4c3a42251fd7_5682d9b4c41a4ba482ff46f43b02d5a4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "380ff00ec86447e3b986edc8e82ffba7_ea69963e431145e383f0c05cd30116c7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "c525507ee2ef4c6d8bb64b0e0cf0dd32_345ffff158a245bc80572dbde4344f28",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "speedLimitUrdbl"
+        ]
+    },
+    {
+        "id": "6776b91389394ff18e57b269863b4dbf_817e7e533a424c6f8c8140050c971f68",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "3ada261efee347cba2e7557794f1aec8_f0f7fec4524045f4a2f44866d410ec84",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "55b3a17359014f398b6bbd90e94a8e1b_4083ba541c6149779624c5d5203925ad",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "d29527ec841045d18d04a933e7a0afd2_d113a5db60314618a500a1011c05a4b1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "bed67ef03c4a4066a74f6c0117d512ee_01bbf47bcb1c44ab8ae4fedd8a0e0520",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "5af9c7f124d84e7e9ac729fafa40ea01_9faf87fc638c492d87ccbdb48388450c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "991d65cab952449a821deb32e971ff19_5cc2771df19d430ba979bf4d4bed98f3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "e005041f659c47e194cd5b18ea6fc346_89df9e54c0d24433a93ad5d45adc05c4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "c65c4acf86954f8cbd53a3541a3bfa3a_a3037fd8331e47d48357d5250fbd8aa6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "0e7ede02718341558414865d5c604745_c6b4dc34a13b4049852f948482a6a6a0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "9068766ee9374872a380fe75fcfb299e_f311006db7884a3a844b3f10c835762b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "c164a8e8e8b8489f964f711f472789be_a96b1f1130bb49a09be9fb4b3ac2556b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "2086743226764f268fe8d4b0b7c19590_c2233bf404b8402e86e9d2d975b81d3b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "16be583c31a2403caa6c158bb55ae616_f975cc2c458b4337b682ad21650345d3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e6f1a7e6218a4737bfedc6af90926b3e_9a12dd1281234caaafb32edfe77254e1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "4962cb207a824e57bd10a2af49354b16_b5c4e946b5e94b479811f5b66fcdecec",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "0ac05652a4c44374998be876ba5cd6fd_6a2b60e5f9ef4cb2a71ac115a3b105bc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "afd73f70ff7d46d6b772d341c08e31a5_de52afcc66d9450da5f07b10977e0493",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "ed242d80ccb34b139aaf9ab89859332e_00bb84f140c943059a9a1e8e372ddabe",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "04219bfdc9004ba2af16d3079ecc4353_c68f58c0b3ad464bb10cddaafd313724",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopAhead"
+        ]
+    },
+    {
+        "id": "6a24a80e2ea3493c81f5fdb9fe78c28a_b0f8d0ae84a74610bf1c72a8d4bec1a8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "080a52cb8f59489b9cddc7b721808088_77d239a5f93b49a38ec0a6185c87147d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6d872d1448814fd189e631b1187c3771_62fda3b441504bb69459b4d413dd239e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "7bd098ac88cb4221addd19202a7ea5de_99a4b7bf640d4cc1bcdbfd9d6cffe4a4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "197a7e4d3de84e57af17b3d65fcb3893_83d3ee0e085b4ac282e06741fe1f3ae2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "afbc2583cc324938b2e8931d42c83e6b_c880188955834ebaa53cc8bc887327d8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "380ff00ec86447e3b986edc8e82ffba7_745e6a480cbc42fab8d91b73f9a2fd6a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "26a6b03c8e2f4e6692f174a7074e54ff_8abcdbff037848118279e42031c7eabe",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "01e4fcbe6e49483293ce45727152b36e_0dc3d1fb0dcd4e19a2b8f6a32c9ebdcc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Right",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "0e7ede02718341558414865d5c604745_70b0647a7b174b429f077dfeac62128f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "b07358651c604e2d83da7c4d4755de73_0f36b39b8dea4de68f1641a63343125e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "21a7ba093614493b83838b9656b3558d_7a8272865e4b4337a4b10a283f2fb0d9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6741d407b1b44511853e5ec7aaee2992_dc8b6fde54a44147ade01e65717fb189",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "54f56f80350b4c07af598ee87cf3886a_29583d31207448f899bfbe4e7ce14db4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "201b7c65a61f4bc1a2333ea90ba9a932_7ff6ab92e1c443209f8268fcfb214925",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "197a7e4d3de84e57af17b3d65fcb3893_d35d70df908347c191f9e4eab21c1143",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "380ff00ec86447e3b986edc8e82ffba7_70f8b28210d64799a4f664bcb221b6fc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "fcc020250f884397965ba00c1d9ad9e6_ad830c774eb7484a87fd2c776c570c2f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "cba3ddd5c3664a43b6a08e586e094900_b5fd72c8c35c4b7bb656f4e9d5b8fe52",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "1aa633b683174280b243e0a9a7ad9171_a82c0acb18dd4c3a99731b7a06a63fb7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "952cb0bcd89b4ca4b904cdcbbf595523_bae5604f746f40228879ca54052bbaf9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "3ada261efee347cba2e7557794f1aec8_317baff05fce4feaad06b5c706b026b2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "5521cd85ed0e441f8d23938ed09099dd_ec99db2461b149d0960c3ebb986f2ddf",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "40209c4e465d4b4e8341ebd52be0d842_29ba615932994396a7ee5b465f9ea5e9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "e005041f659c47e194cd5b18ea6fc346_f64f5bce1ee44667b53464a8fe5f33c3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "9709626638f5406f9f773348150d02fd_9d0b36d611be43ffa9244ee9a4e9c5e9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "85651af9c04945c3a394cf845cb480a6_8cd9b9f28b6b44e3933216e65bbfbbd4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "325cef682f064c55a255f2625c533b75_ac8b4d49731d43289579f014cb7c97ef",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "NIL_LEFT"
+        ]
+    },
+    {
+        "id": "848ac962547c4508b8f3b0fcc8d53270_aae0304d89854d818cb48c0aa52a4ebd",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "6741d407b1b44511853e5ec7aaee2992_c6a183ebd7a14560aa296548bf742f43",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "c65c4acf86954f8cbd53a3541a3bfa3a_674ac51c90f444ffa066c3aa15991728",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "acc29386502047339e1ec6b9c7e512d2_c4bdc2fcf6ae4ba599d53663ed2ab5c5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "d7bacba9119840f78f3c804134ceece0_9eedcc984e664023b45fc366259ba52e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "3045ed93c2534ec2a5cabea89b186bd9_6df66081e5764cea846062a514fd90d5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "dce6f3f2bf6b4859abcf3268581969d3_9db96db5511f4779b712aeff927c3836",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "8180a1dbbba3479bb0c7f4ff6e9a3f0e_f09c85b7ca614a97b5a2293ad5b1182c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "197a7e4d3de84e57af17b3d65fcb3893_b893abf8b30c41cdbab2af44ee9c1e74",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "112ca771e318478a88cfa692f61ffcac_4fe7d92f1beb403aa1e9228dc8de8365",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "68e79a88244f447f993a72da444b29ba_4a4426ac48d54f9590573ea48b1e76fc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "7061c08f7eec4495979a0cf68ab6bb79_1decfedef1084fbcb113c5ee8fd29dac",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "50ff554b3ecb4d208849d042b7643715_8b5ace96875a43cc840a0bbe5993fa6a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "3045ed93c2534ec2a5cabea89b186bd9_5bebe37b75564ab2a9773b12e78917e1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "ee48ee50025e40b4ae27dbdf84d92825_c5ba8d86e02c4745a08e6c7c529e1865",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "aacd6706a091407fb1b0e5343d27da7e_93d2488a9e3e47088d7334164e1625d4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "2ca15f59d656489a8b1a0be4d9bead4e_8b93ca14a898421d88a437bbd88fb716",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "0e7ede02718341558414865d5c604745_a08d81b25afa47119071f4cf9a2ed667",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e7ef871f77f44331aefdebc24ec034b7_f56a544064a548a39a81f18cc8f633c5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "d29527ec841045d18d04a933e7a0afd2_3af22799124845adbb36dac464843d09",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "57dc3221a3d845b5ab17ff0f98ce336f_9dad24d222564abc92d4af77980cb842",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "50ff554b3ecb4d208849d042b7643715_023d6155e22f4c08b4ce15471bc79e7f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "acc29386502047339e1ec6b9c7e512d2_5a54a45e59ad48cab7213ff7d1828f3c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "2086743226764f268fe8d4b0b7c19590_af7ce8da343b4de19950c66b15ece116",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "7210f928860043b5a7e0d3dd4b3e80ff_f1ad72cddc6a452fae44f666693945e1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d29527ec841045d18d04a933e7a0afd2_91fbcc7fba204f93b7b72a818fdb81e2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "b789de07180846cc972118ee6d1fb027_b0e6fd5561454b2789c853e5350557a8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "rightLaneMustTurn"
+        ]
+    },
+    {
+        "id": "76ceedbcc6a54b158eba9945a160a7bc_a4facccc531b4d32aee21876f9b92562",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "NIL_LEFT"
+        ]
+    },
+    {
+        "id": "6af9b75e439e4811ad3b04dc2220657a_58cf35a1ae754c1fa5204699f477f15e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "26a6b03c8e2f4e6692f174a7074e54ff_95ed5d5037b64b73b3e4028d4ce99082",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "905cfed4f0fc46679e8df8890cca4141_448fb51aeb4941c0abb029686572c14a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "speedLimitUrdbl"
+        ]
+    },
+    {
+        "id": "325cef682f064c55a255f2625c533b75_7bebe3c9be714f02837f8617c56df122",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d87ec0461e3f4c4ea29b0f0c0ede5167_000868a72138448191b4092f75ed7776",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "signalAhead"
+        ]
+    },
+    {
+        "id": "44c9089913db4d4ab839a2fcb35989ed_cb277e7166c94ffcbc2177c695a5c108",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "8e3364691ee94c698458e0913a29af78_d036b91e580045378b9fa8cf7210b550",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "5af9c7f124d84e7e9ac729fafa40ea01_cb39369c45bf4fd0be41ab5fb995494b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "19d97841d6f64eba9f6eb9b6e8c257dc_5392304f5e374296960235eabe9808b8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "0ac05652a4c44374998be876ba5cd6fd_656ec137f292487fb7685d39dc162b03",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "6741d407b1b44511853e5ec7aaee2992_0181321478f94908b4b668b47b492519",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "cb3e964697d448b3bc04a9bc06c9e131_3285f07cca0844e8a939c49f29166fc1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "325cef682f064c55a255f2625c533b75_a19a80c905674faab7203a3a4e0f5246",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "c525507ee2ef4c6d8bb64b0e0cf0dd32_90162f90eceb4ada9e595bc1adb71b5f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "9088db17416043e5880a53178bfa461c_1963219c351f44e0b681cd17d63da72b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "16be583c31a2403caa6c158bb55ae616_03bfef5ffadf4203ba4ca4a239ee620f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "7e8ff24069ff4023ac699669b2c920de_582240fdf8ba49cc8186a3002d17c11b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "5eaff323af5b4df4b864dbd433aeb75c_c91a97e6c7fc40e995491ae7272db9ab",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "7052d21b95fc4bae8761b8d9524f3e42_f868336acfca41f6b3b7a3d1b6518691",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "82cabcf15a1a48aca6bbf082f8710e39_8a6554684382497fa4ee6847fbe77f68",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "3927699fa562451a98bb13bf8405361d_54e8477902df471d8b43705b1a120f37",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "1aa633b683174280b243e0a9a7ad9171_e42c40288fba48e993507ce35215a7d5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "07aed9dae37340a997535ad99138e243_fee2ac7d0102464a94b6bc788be71be4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "a178a1b5415f45c08d179bd2cacdf284_ed00e1196ea74e0795313afc75d39dcf",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "50ff554b3ecb4d208849d042b7643715_e39400ef772142919c70b68f77780294",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "a7d073bc435b4356a0a9a5ebfb61f229_8e891ad68790441bb4ad69218d168db8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "dce6f3f2bf6b4859abcf3268581969d3_5d48687c6ffa4b14ad9d87e4b10bafd0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "9f1f69646d644e35be4fe0122a8b91ef_459ac79bafdf4b88913f981c1fa71b2c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "f97bf749746c4c3a8ad9f1c11eab6444_4b0c2b4afa3940f78d68d5666cf93adc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "3b2ee26cb8484f77895bc336663df502_6a1602032a0449e9a15300faafe36c47",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "5af9c7f124d84e7e9ac729fafa40ea01_2de4836c1a1e4d1a8c2d73a3af31fd47",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "44c9089913db4d4ab839a2fcb35989ed_bf8b53ea92124e95ad770045706015de",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "0dae482684ce4cd69a7258f55bc98d73_4afe649e7e4344f79923264b7bc32c21",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "ee48ee50025e40b4ae27dbdf84d92825_54b183d618734aeeb7ba43affcec57a7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "85889db3628342a482c5c0255e5347e9_77fa92b807e649bd9b39b2c2efa78177",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "c65c4acf86954f8cbd53a3541a3bfa3a_947147c686d04c168ee8604b2f43bd46",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "rightLaneMustTurn"
+        ]
+    },
+    {
+        "id": "2f56eb47c64f43df8902d9f88aa8a019_abe76951d0a0458d84d59e689d8ecfab",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "3dd9ad3f963e4f588d75c112cbf07f56_2a271f85c90a45a9a6f33d9cc281943e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "82cabcf15a1a48aca6bbf082f8710e39_8269fe5375974424ba92852ed8b33833",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "952cb0bcd89b4ca4b904cdcbbf595523_dce5b14971d04b86b4221774d0903da7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "40209c4e465d4b4e8341ebd52be0d842_4c425aee90ee4d38a6f8fc5c5ea15203",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "7052d21b95fc4bae8761b8d9524f3e42_6a572eb7bc84490487b6fad4266bc0d4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "3dd2be428534403ba150a0b60abc6a0a_d4437f7299da465a9115120375104a24",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "b789de07180846cc972118ee6d1fb027_39961df49391439fbca612a8efe1c531",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "41fde20fedcd4d22ab26811688612870_a32eb5c0d8514895af2af5889c1f5199",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "0ac05652a4c44374998be876ba5cd6fd_2e74db7a04ef4ef49ec7f136a260a878",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "9f1f69646d644e35be4fe0122a8b91ef_d0a9cf1d37cd414584f676826a1f400a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "9d1307e95c524ca4a51e03087bd57c29_7461eb9987354c5db09f9203786b2324",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "a499ee875da34e2b9655afb999edb8a9_02e898c7625f48c88379bafee924c290",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "265f002f02d447ad9074813292eef75e_d34f2eec80f54b608f9b9d0a86f103bd",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "7bd098ac88cb4221addd19202a7ea5de_39ca468b47a84e2aa946e4d6d08ed68f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "2086743226764f268fe8d4b0b7c19590_6d603fae12034090907601d1409f597e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "201b7c65a61f4bc1a2333ea90ba9a932_d628f4a6b4a6405c8f4cfbb8d18c6fd8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "a7d073bc435b4356a0a9a5ebfb61f229_b775098400f0489c9afadf156953aaa9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "e036014a715945aa965f4ec24e8639c9_7723b0a5b55e49028244c6094eb0fb2b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b4b82c4d338a4b6d86835388ce076345_5369488db9e94abcaacb56ed00a0def6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "265f002f02d447ad9074813292eef75e_261e4db3a18c4c23944f61bd6e51cf0c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b94fbf78579f4ff5ab5dbd897d5e3199_241aac40781d4301aceb77ac14ec084d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "fcc020250f884397965ba00c1d9ad9e6_01176d20420b404ea52769d01ad61b0c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "82cabcf15a1a48aca6bbf082f8710e39_53123cc5c36d44e4be7bd5cfd7e118a8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "d01e7279da2649ef896dc42f6b9ee7ab_10103847ab7d4b1db6c1c046c9e38097",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "a7d073bc435b4356a0a9a5ebfb61f229_7f72c0bb768046df8c15bf20f43b17e0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "a04daf2d0f194b2ab2ff2a47dfebc1d7_74d77f30c5e54749bf26c0d970079e6c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "68e79a88244f447f993a72da444b29ba_1906aa07e1914059914e62ee02ccb50f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "91c071bcc1ad4fa1b555399e1cfbab79_c8b6a861ef0445cd8bef18eb2b7f9e89",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "c525507ee2ef4c6d8bb64b0e0cf0dd32_04720abe20094543bec51f2a0e0ff6a1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "bed67ef03c4a4066a74f6c0117d512ee_ae239c877672435abcdd6b538ab68b37",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3a2d9bf6115f40898005d1c1df2b7282_ca58f510e1a34f16b51196ada968393f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "8edbc31083ab4fb187626e5b3c0411f7_dabb28a18e6c4a668f15511d7d77dc5b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "0ac05652a4c44374998be876ba5cd6fd_21e354a1dc9b42498ed1bb4b050bb2d9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "2eb4d7f00e584a548aa0b899638bfb0a_89910914b61e442f967bea60eb5ed44f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "fcc020250f884397965ba00c1d9ad9e6_005d3e821c4e4e0ab03f1ea1dcbf9cc8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "d01e7279da2649ef896dc42f6b9ee7ab_1cebe66c60b74120904a4e5b6b3bb152",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "f24b4682fbb9482aba149534deed1cc9_7ce195be9d6e4838b2a5c9d946dfa4f3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "b07358651c604e2d83da7c4d4755de73_a4747e221be5477a8b0cba64d9032bcd",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "9d1307e95c524ca4a51e03087bd57c29_4e87276d0d1347a48550a74799631d6a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "bd338b912ce9434995b29b6dac9fbf1d_45022789b1ee454da83a147a87960f94",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "40209c4e465d4b4e8341ebd52be0d842_28ce972b986d4dbb86ad9c96b3e4e34f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "112ca771e318478a88cfa692f61ffcac_dff6bea8d6b443548193449a5982f11d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "7e8ff24069ff4023ac699669b2c920de_8f9bb10025fd46e694be831e25020298",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "cba3ddd5c3664a43b6a08e586e094900_f9438d42bb944364b5a75d6c5d0bc758",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "afd73f70ff7d46d6b772d341c08e31a5_9fbc6ac2c75c479cbc125a7a50bbaf64",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "201b7c65a61f4bc1a2333ea90ba9a932_c62b6ac878934607be0c524a02f1692b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "7061c08f7eec4495979a0cf68ab6bb79_1c09b3fbca8c4d1ebdba46bbff8290dc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "656bb27689dc4e9b8e4559e3f6a7e534_60832ea2bb78449690e751f5ab3de000",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "40209c4e465d4b4e8341ebd52be0d842_ee76404e85b3497983cb220e40600e41",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "952cb0bcd89b4ca4b904cdcbbf595523_50f3aba515db47d6b0dc9061802ef7b2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "2eb4d7f00e584a548aa0b899638bfb0a_eb4b6de953e247bcafe77dffd79bc8ed",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "d29527ec841045d18d04a933e7a0afd2_ae52c4af95674bdc900000c161a5d95d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "c3ab8ee2c1a54068a72d7eb4cf22e43d_77c3d98fab3e4d3ea65747caaa74d605",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "afd73f70ff7d46d6b772d341c08e31a5_d8230413dcd947d8bb19287931a618d7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "dce6f3f2bf6b4859abcf3268581969d3_301fdcd061724fbfb38097670b218596",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "ca6e45c25d954dc4af6e12dd7b23454d_fd317cc68860413f9a2ffedfd26e3be1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "a178a1b5415f45c08d179bd2cacdf284_be8d80abd39640f3855c62885d2130ff",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "112ca771e318478a88cfa692f61ffcac_9742c1ad56fa4179a02c606e7929a9af",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "6f83169d067343658251f72e1dd17dbc_e9a1c915c0d641d0b0a3019112a1ee90",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "991d65cab952449a821deb32e971ff19_649a61c361bf48d98b5f280cc10aa006",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "7365495b74464629813b41eacdb711af_1525755f9f8948f1a2f056039971fd70",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "0ac05652a4c44374998be876ba5cd6fd_453118c5050748d3939e45666ff915f3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "3b2ee26cb8484f77895bc336663df502_88c395f034714bac91e39650b6c8476b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "laneEnds"
+        ]
+    },
+    {
+        "id": "c525507ee2ef4c6d8bb64b0e0cf0dd32_0f512a2cf5e24a84bb7a13774295ece8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "b51869782c0e464b8021eb798609f35f_f8b5e98950ed483e92ece29c264c072e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "c525507ee2ef4c6d8bb64b0e0cf0dd32_84fd8f6d5b2c406e9ddd1c3b72690917",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "b07358651c604e2d83da7c4d4755de73_4300e17a55f34a7aacc180dcba5616bf",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "speedLimit35"
+        ]
+    },
+    {
+        "id": "3a2d9bf6115f40898005d1c1df2b7282_bf0bf41d7eaa40a0aaccf8d7cb8442a1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "stopAhead"
+        ]
+    },
+    {
+        "id": "c4df079d260241ff8015218e29b42ea7_91a161db9a194e2d8473a0d86793da53",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "7061c08f7eec4495979a0cf68ab6bb79_8af2e40c9e8b4bec94a3d701d8d5753e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "4efbf4c0b77f467385fc2e19da45c989_f500fa5dbede4e3ba3c8c523748d5110",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "2f56eb47c64f43df8902d9f88aa8a019_0da044f464b44e5d8c782a13903d6e50",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "16be583c31a2403caa6c158bb55ae616_6e1f02cb4e2747c6970b2d9b2e834852",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "21a7ba093614493b83838b9656b3558d_317fba7a6afb4dac8974af0d61afe325",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "201b7c65a61f4bc1a2333ea90ba9a932_ff771831a0b243169b037f4659e23a9d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "stopLine",
+            "speedLimitUrdbl"
+        ]
+    },
+    {
+        "id": "3363f396bb43405fbdd17d65dc123d4e_227d9020c63940cf8f8b63916bf39d5b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "2086743226764f268fe8d4b0b7c19590_2ff0482416cb4997bab12b0d7700f142",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "7210f928860043b5a7e0d3dd4b3e80ff_4e9c011236e64ac3876e8ae12290b881",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3a2d9bf6115f40898005d1c1df2b7282_ecc9c875abe34151820fa427141d7471",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "speedLimit35"
+        ]
+    },
+    {
+        "id": "2abb3f3517c64446a5768df5665da49d_5b29d1a2b0e646368622dee5e8fa5108",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "c65c4acf86954f8cbd53a3541a3bfa3a_60565417b2584f15965a0e22c6f6d317",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "rightLaneMustTurn"
+        ]
+    },
+    {
+        "id": "2ca15f59d656489a8b1a0be4d9bead4e_6f82d20df0564605978ac7ee7d2da494",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "91c071bcc1ad4fa1b555399e1cfbab79_6711467d3a2146c0a90f6a69787d8648",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "82cabcf15a1a48aca6bbf082f8710e39_5d3e3366f21f49bcba8af3b57218f32d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "848ac962547c4508b8f3b0fcc8d53270_d5cb5a4a5e5245f8b6300ba482babbc2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "30a1a4ccd60047b4a22ee3bf0645f3ad_621ecaf28ab34822b8747831b42f8524",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "speedLimit35",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "696a45dbd11346b794fdce43fa0a1770_27f53c7168584747bdbaff8ae8d758c5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "NIL_LEFT"
+        ]
+    },
+    {
+        "id": "2ca15f59d656489a8b1a0be4d9bead4e_b70d359986c74a008d7e9f957521b213",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "acc29386502047339e1ec6b9c7e512d2_27db2832d44144829b896d46b441f66c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "36f27b26ef4c423c9b79ac984dc33bae_6edc535af6e4466d93c99da08c7b6b58",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "848ac962547c4508b8f3b0fcc8d53270_b421615151244708b1efe89c5147eaaf",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "32185f91e68f4069ab3cdd2f4f1a4ff1_40691e80360f47a7b212d3888982ea17",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "68e79a88244f447f993a72da444b29ba_1175f341a78a4877bc5257cbc763aef5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "04219bfdc9004ba2af16d3079ecc4353_a2b34ea2076d4f5d9610bba842d21536",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "5301151d8b6a42b0b252e95634bd3995_978470d6c8634b75bbb95b2e3d0cea10",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "57dc3221a3d845b5ab17ff0f98ce336f_eb60a132b3b844788070acf04596941d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "afbc2583cc324938b2e8931d42c83e6b_d15d80fd4f7b4a0b99f3c63cc13768db",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "e036014a715945aa965f4ec24e8639c9_20a964781c964fbdbc709a14955cbd24",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "64bfc5edd71147858ce7446892d7f864_12d8d478ed3b43e78feae31551ed3d19",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "991d65cab952449a821deb32e971ff19_fac8be41b6fe45c8ad71604ed218149f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "afbc2583cc324938b2e8931d42c83e6b_43b92f490cb64c2f98f0534678db42a2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "93608f0d57794ba6b014314c488e2b4a_cd46f5df303a4d60abd7e4447d344d4c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "7365495b74464629813b41eacdb711af_4f0f533c84c4493599f2eb3a60882b16",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "3f90afe9f7dc49399347ae1626502aed_d1d66d7d6a3043b380cc10f7ccee4ca6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_YELLOW_LEFT"
+        ]
+    },
+    {
+        "id": "f2541977a00a448db9b46a32187d9059_3f7e522bea504f30bff9efac7730e051",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "9709626638f5406f9f773348150d02fd_9018d220fc7340998efa65631a9c3cd4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "ee48ee50025e40b4ae27dbdf84d92825_9b4c2d1a93764c57bb4db78a5c01a9ec",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "3b2ee26cb8484f77895bc336663df502_8f0808f02e6f4e30915c719e16fcc8b6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "96e5f1f0944946f391b4ef33ad623008_4200ee42070b4614a74d9621d926e248",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e036014a715945aa965f4ec24e8639c9_b1e7b23afebd4e5986b38ab6f7ae5a2b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "5eaff323af5b4df4b864dbd433aeb75c_42de34837ddf4633adc4aedf2e824c5e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "2eb4d7f00e584a548aa0b899638bfb0a_8ef17257025146b19306abed70229687",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "905cfed4f0fc46679e8df8890cca4141_3ae9a520714c4a27bed235e79dfdc4ac",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "41fde20fedcd4d22ab26811688612870_2c1f8867c60b44f09ee37b5df1d1ad24",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "01e4fcbe6e49483293ce45727152b36e_07294f69a7564afe926cc3d343c3599a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "380ff00ec86447e3b986edc8e82ffba7_e49b120c397d4f20ad72b3c6e87103bc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "c92fdd793fbb4401b12782a9b8d4a499_6ac4b1e312b84be28784f1280e53073a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "68e79a88244f447f993a72da444b29ba_2b4441336efa4a649510d33c96ca53aa",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "4efbf4c0b77f467385fc2e19da45c989_dabbf83b9113422cb0b12542f959a6c0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "85651af9c04945c3a394cf845cb480a6_bdb59582e0034074bffa465525533dcb",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "d3b86ca0a17840109e9e049b3dd40037_a545bf56871047a8852aa9ec3e9a48c1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "fcbccedd61424f1b85dcbf8f897f9754_fdc39b23ab4242eda6ec5e1e6574fe33",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "080a52cb8f59489b9cddc7b721808088_68b7cbe911ee40f9a00ff8affbfb88ab",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e60ef590e3614187b7800db3e5284e1a_e6bfcdee43b4427cbc511f3d9ab0b94d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "f2541977a00a448db9b46a32187d9059_abdab7537f7a4a66aa2a445fdedaee36",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "f97bf749746c4c3a8ad9f1c11eab6444_c82417563e44430e9e59224e36872f4e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "d3b86ca0a17840109e9e049b3dd40037_29d2ae0d71504196a577d40fc1faf556",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "5521cd85ed0e441f8d23938ed09099dd_13023d830bad41fbab80efdea5a548ce",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "223096a415cc45bf8ecd4c3a42251fd7_99d907c5351b4016b1f8315ef9a0651e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "9709626638f5406f9f773348150d02fd_fc651dc8a36846fdba3f705117d3d0d0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "a04daf2d0f194b2ab2ff2a47dfebc1d7_48f3f4ec14d24524a82171115741d353",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "a04daf2d0f194b2ab2ff2a47dfebc1d7_b4dcd0bb78ad4d56abc1464e6d97f8e8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b51869782c0e464b8021eb798609f35f_dbffcc96729b420380ace0e08ad587d5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "223096a415cc45bf8ecd4c3a42251fd7_4893d559c8604172b837f758b520fe49",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "931c5c57011944459bba3825ab8777a9_e3224ca54c6d42d5a9c09e7fbb1e1b33",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "a04daf2d0f194b2ab2ff2a47dfebc1d7_445c15698dea4a6d89aecf838b91cfbc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "905cfed4f0fc46679e8df8890cca4141_c752fd12565d48d598a8bfce5b0530ad",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "7e8ff24069ff4023ac699669b2c920de_753f633399d2419188871d3f0d145b54",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "cb3e964697d448b3bc04a9bc06c9e131_fcbae253055f4611baff6f6cfb117699",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "2abb3f3517c64446a5768df5665da49d_3c5fe22946dc4d12954375abc464d6b1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "d1e57234fd6a463d963670938f9f556e_907c55da60624b3ab19750af975b96a8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "26a6b03c8e2f4e6692f174a7074e54ff_b999707d600d4b0db25404e6f41085aa",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "acc29386502047339e1ec6b9c7e512d2_bb9c0abebf574b4892f1e0fab92004d1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "931c5c57011944459bba3825ab8777a9_b7e2aadf876a4377847ea31ad3592069",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "speedLimitUrdbl"
+        ]
+    },
+    {
+        "id": "8edbc31083ab4fb187626e5b3c0411f7_d7f3a1ff633c493a87a94ab0b39a14a7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "01e4fcbe6e49483293ce45727152b36e_99df68e72fe14d91b11c4ba652c55214",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "5af9c7f124d84e7e9ac729fafa40ea01_56f2d967734747c181e8cac27acef265",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "6af9b75e439e4811ad3b04dc2220657a_077128a4309a49aca94390baf1c05cfc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "5af9c7f124d84e7e9ac729fafa40ea01_0e8782aa721545caabc7073d32fb1fb1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "19d97841d6f64eba9f6eb9b6e8c257dc_b380f7433ef54209be12e5f830b1126c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "50ff554b3ecb4d208849d042b7643715_921c03f24e714e429d160beb33ba6db1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "5a0dd8908a3a459b83ec5eb6ac7d0f82_c2102371cbcf4d8f9eb66069a3d5b350",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "2f56eb47c64f43df8902d9f88aa8a019_e15862d8a89d4250947cad3d1eff3dfc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "ec7b7459461e4da1a236ba23e22377c9_66da7bc067f9483795f064a265104647",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "32185f91e68f4069ab3cdd2f4f1a4ff1_4dc80584b51344059d5e333cb40f1762",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "e60ef590e3614187b7800db3e5284e1a_b631c946059441e084193a20a729d264",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "034dee1695304630b0692da8c1f153fc_54c58e9e2c054cc290b17a6164fbcd0f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "36f27b26ef4c423c9b79ac984dc33bae_02e76c32670c42bb9787e74d3b35ceb1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "7365495b74464629813b41eacdb711af_47f40eb09dcb40b9888d81fb4b872ac4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6af9b75e439e4811ad3b04dc2220657a_f291dbf134af49c3a068eaed23fd8b41",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "2f56eb47c64f43df8902d9f88aa8a019_b2d77fbfe24e4cdb988949cc2565652b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "6d872d1448814fd189e631b1187c3771_0799844f6afa4ac1840181d0c8b26f08",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "91f797db8fb34ae5b32ba85eecae47c9_b462e73472684c509a3e5f8734c33b10",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d29527ec841045d18d04a933e7a0afd2_84547c06871449cdb7b3ee025b4d79e8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "57dc3221a3d845b5ab17ff0f98ce336f_127fa54ea942492fba7e955d525161db",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "955ff42a1990442d868cdfc0c01583d4_188e7d58e565459096ad682313f93902",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "5521cd85ed0e441f8d23938ed09099dd_4d61fddf74844a4085ada14799bee344",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "e036014a715945aa965f4ec24e8639c9_0ed87ec201a04c3581bf8328600f0f7b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "aacd6706a091407fb1b0e5343d27da7e_a04f92ca8aea48e285714e22af462950",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "4bb9626f13184da7a67ba1b241c19558_6386a730c1ba4b1ab87c9f17c25755e6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "a7d073bc435b4356a0a9a5ebfb61f229_620d89c4ebe94a8f8db4df5f24cb39e7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "8edbc31083ab4fb187626e5b3c0411f7_926dde8427454373a0f4b61b1b3c6e2f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "36f27b26ef4c423c9b79ac984dc33bae_5ded7d74daf24c3e8dc28db3145c2366",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "f24b4682fbb9482aba149534deed1cc9_4966d957c9ab4bbc837ecbf6fb019631",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "4efbf4c0b77f467385fc2e19da45c989_1a4bff6fb5ba4d04816886ab6fdce0ab",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "380ff00ec86447e3b986edc8e82ffba7_190ad8d6769c4f32ae1a5292d2e5a408",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "ed242d80ccb34b139aaf9ab89859332e_781696f733bf458ca2a588fdec64a1b0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "2f56eb47c64f43df8902d9f88aa8a019_213ee1a50ed245eaab655babec4f15d3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "3927699fa562451a98bb13bf8405361d_e3ea9ec04e084b96b497f4edc4024bfe",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "6d872d1448814fd189e631b1187c3771_25a777903d554457b6e4e5e437f21125",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "9f1f69646d644e35be4fe0122a8b91ef_6ea8ed46a7e04a10abfa6acd5290ea09",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "2ca15f59d656489a8b1a0be4d9bead4e_000681a060c04755a1537cf83b53ba57",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "f97bf749746c4c3a8ad9f1c11eab6444_1f73768be216451fa02caa38b04a62b3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "aacd6706a091407fb1b0e5343d27da7e_2ab5a11c73a946f0ac511d3f7ea1d69c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "d7bacba9119840f78f3c804134ceece0_c677f08e71944f7fb17beb92d02a734a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "yield",
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "55b3a17359014f398b6bbd90e94a8e1b_4e8b7b2f5e7c490ca034de21c248e90a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "d1e57234fd6a463d963670938f9f556e_7282c260eb3440539424668687a82648",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "44c9089913db4d4ab839a2fcb35989ed_b974813ff3514ed3b76cfacc776d2fba",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "a7d073bc435b4356a0a9a5ebfb61f229_dcabeaa46ee548c3a5a54a01ab46e6e8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6a24a80e2ea3493c81f5fdb9fe78c28a_d7da6ee9133940e28fac7695c24ea639",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "merge",
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "7210f928860043b5a7e0d3dd4b3e80ff_3334c156cbc4420ba1ff066094f0d1f2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "b789de07180846cc972118ee6d1fb027_c4b8c55ceed44c7e95c36e61b8a99ffe",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "c4df079d260241ff8015218e29b42ea7_7bb8d00122624267a777a5ed487b8703",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "16e50a63b809463099cb4c378fe0641e_d078f5c7222e4f08b54822118a284d6e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "32185f91e68f4069ab3cdd2f4f1a4ff1_093439cd1eb54b7d8091effef292386a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "8180a1dbbba3479bb0c7f4ff6e9a3f0e_ac7124bfc1694aa996a5e3b27d17ecf5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "e60ef590e3614187b7800db3e5284e1a_7c05d013f2eb41d38ce85f4d2ec94e07",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "fb73d1a6c16147ee9416faf6b310fadb_e3831bdcf3024b5eb47f2684694f8504",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "yield",
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "d3b86ca0a17840109e9e049b3dd40037_7b812b168d934f5a9011ac107bff941d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "3ada261efee347cba2e7557794f1aec8_bbf1d23e80b84da798c56cbac090f7d9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "afd73f70ff7d46d6b772d341c08e31a5_94b913a2bb1e4f18bc10509f644d539e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "7210f928860043b5a7e0d3dd4b3e80ff_56d2e0f573584ba1bb3446b1e0573fc7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "07aed9dae37340a997535ad99138e243_6c0c3cb4fb0448c28a94f8fedfd99b7a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "c525507ee2ef4c6d8bb64b0e0cf0dd32_b6060b7c1f5c4ab3b69718904ef68701",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e7ef871f77f44331aefdebc24ec034b7_9c75ddb5976343c3b7b33e8148d3eeb0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "a499ee875da34e2b9655afb999edb8a9_08beb6614eef4f7cbc320082a06d725d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "efa5c96f05594f41a2498eb9f2e7ad99_7ac3bb7fba5c4852a685555407cd10f1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "01452fbfbf4543af8acdfd3e8a1ee806_b2fecdf10a404d94a049c91f20eaddf3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "d87ec0461e3f4c4ea29b0f0c0ede5167_25a862fb3f4b4193a4f64d5051eebc19",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "dce6f3f2bf6b4859abcf3268581969d3_2f3e07dddeb9482ea9994adbd1049e7a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "2abb3f3517c64446a5768df5665da49d_89c9d0c82a794d39911b3bfb3491b1bc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "848ac962547c4508b8f3b0fcc8d53270_5d413e8d6a4648a7bcb091f7e362a3fe",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "44c9089913db4d4ab839a2fcb35989ed_5fdb29ad896c4eada9f5db6328ed639d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "b94fbf78579f4ff5ab5dbd897d5e3199_fd05628457eb4b1faaac0d476ac7d561",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "905cfed4f0fc46679e8df8890cca4141_e37222196d2746f9ad3666fb1da40987",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "36f27b26ef4c423c9b79ac984dc33bae_2cdfb72242d1424c9d3bf8bcf8530cd3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "f5b29a1e09d04355adcd60ab72de006b_f6b1a19f78ac42768f804252eafab856",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "2ed0fcbfc214478ca3b3ce013e7723ba_d0cc76c904c542b39553f012e4791ef0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3a2d9bf6115f40898005d1c1df2b7282_cbd9af2921154c46bf9a5da785624d5f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "3dd9ad3f963e4f588d75c112cbf07f56_603304c79ec14a318fdb1c896b8aa43f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "813213458a214a39a1d1fc77fa52fa34_cf753561271b4c40bef93a35bb0cf13f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b07358651c604e2d83da7c4d4755de73_996f330c95464329a8929b3b28b96763",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "7365495b74464629813b41eacdb711af_c10dfcf73ed84179b8915990fa6464a5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "01452fbfbf4543af8acdfd3e8a1ee806_901cfd30cb2a4fdba55095f9ec0fed34",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "955ff42a1990442d868cdfc0c01583d4_17f51015f1d448ae967d3d089f6db1af",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "4962cb207a824e57bd10a2af49354b16_e2f2f4b0a2424cfe9f709587c7e1ef8d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e7ef871f77f44331aefdebc24ec034b7_6b9af38cbf654171870cb14b4ae89fd6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "0dae482684ce4cd69a7258f55bc98d73_8542f5f6d7b94050b17a6e980c0b7bc6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "0dae482684ce4cd69a7258f55bc98d73_f4a78e352cb74deca0bf4e1669aec42a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "8e3364691ee94c698458e0913a29af78_0ed7886aecfe47edb1c0297934e5e17e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "96e5f1f0944946f391b4ef33ad623008_2f2b214cc4b94a47b53f09b76f8717a6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "8377abf77f464a9cb62eacf63f383422_8c6a954f8ab94c36b994a18d9f6a5b26",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "9088db17416043e5880a53178bfa461c_22a2197bfad742faa1c5cf8c1be1bc45",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "f5b29a1e09d04355adcd60ab72de006b_8e587f5c219747c69c000f1b430c4820",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "e60ef590e3614187b7800db3e5284e1a_a2c906d98f0a48d8952b50b865673046",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "bd338b912ce9434995b29b6dac9fbf1d_e837c2061aa14c56bc2b1969f56dc372",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "2eb4d7f00e584a548aa0b899638bfb0a_6b3c851413064994bb0babae7e74efad",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "e8099a6136804f3bb9b38ff94d98eb64_50f1c83c63ec40fcae6615e8a6a19a23",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "3dd9ad3f963e4f588d75c112cbf07f56_ef661945febb4f4b9f11bea17dd55c63",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "b4b82c4d338a4b6d86835388ce076345_b1eea1e3d59e4afdaa6d29481480d974",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "ddb615d9bb22484cabc6545b632a1025_d43144192b63485894f7ef174cdbecac",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "955ff42a1990442d868cdfc0c01583d4_07edc51914da42e2b961541c7e8ab41e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "26a6b03c8e2f4e6692f174a7074e54ff_9f00ff39034d4e11ac09542c909742c9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "e8099a6136804f3bb9b38ff94d98eb64_d1d38dddb8174acf9cb776ec6c941024",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "f97bf749746c4c3a8ad9f1c11eab6444_6a26b8244fc1466f9f52387039718f6f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "112ca771e318478a88cfa692f61ffcac_74b387cb0fe240008650a57798ff46a5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "c65c4acf86954f8cbd53a3541a3bfa3a_2577f859f0fb47a3a21cfc7c95650d26",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "rightLaneMustTurn"
+        ]
+    },
+    {
+        "id": "d87ec0461e3f4c4ea29b0f0c0ede5167_befb06465a7f4b0793dcaa467854a6dc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "c164a8e8e8b8489f964f711f472789be_aca5ebf7f3c940dd91c2fab7d0e0f2f2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "b789de07180846cc972118ee6d1fb027_690c4ddabc7845f48f4831ac73129154",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "fb73d1a6c16147ee9416faf6b310fadb_3b5b12f948e64b729a1041ad4016f194",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "ec7b7459461e4da1a236ba23e22377c9_6bf48d2ca0e546f0abbec90c4b9edf79",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "aedcd3cf7c4a49d7a4a43ab7443a9eb1_d896aceac8b64fa98256a05d833756f7",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "4bb9626f13184da7a67ba1b241c19558_8d31a51ac68a47369e16121d87a4542a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "813213458a214a39a1d1fc77fa52fa34_6482944ffc7a4e07b6028c5797a41606",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "a04daf2d0f194b2ab2ff2a47dfebc1d7_506d1d4eb91f43d1ba7f8564ea7a6939",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "1aa633b683174280b243e0a9a7ad9171_c0ac3dc491e7414184f44c2b32d24ad8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "b51869782c0e464b8021eb798609f35f_b78605983b3543a1a70df4b3805e4dfc",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "68e79a88244f447f993a72da444b29ba_f91ec82037fb47ccbac160cb5de453bf",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b07358651c604e2d83da7c4d4755de73_5567b3f64c7a47ee9b92e5d36b2971fb",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "c3ab8ee2c1a54068a72d7eb4cf22e43d_08e76760a8c64a92a86686baf68f6aff",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "5a0dd8908a3a459b83ec5eb6ac7d0f82_faae4d51453c4a8e9b3fe404724ddfa8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "a7d073bc435b4356a0a9a5ebfb61f229_51d189d9418447ceb7ab637a9b7a0779",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "b4b82c4d338a4b6d86835388ce076345_a79c34821835458ca58d97b687602ab1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "2ca15f59d656489a8b1a0be4d9bead4e_a95deb56b3a845acae5cc782f42e5e4c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "c5224b9b454b4ded9b5d2d2634bbda8a_6d5d0e60cbf4429d8b6cfa055924e5ca",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "dip"
+        ]
+    },
+    {
+        "id": "991d65cab952449a821deb32e971ff19_dc4d4f9243464c08838ba54c9e532c92",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "afbc2583cc324938b2e8931d42c83e6b_98bf797f546c458dba043f2a8968bed4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "bed67ef03c4a4066a74f6c0117d512ee_5e10fe792690427ebf26e32eba6281dd",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing"
+        ]
+    },
+    {
+        "id": "82cabcf15a1a48aca6bbf082f8710e39_e780de705c784720ab7ab65e7f3770b2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "3b2ee26cb8484f77895bc336663df502_a6d48d66de814c4cae095613b5ebfe0f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "7061c08f7eec4495979a0cf68ab6bb79_85328ff778d0430793f778b5242885d2",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "26a6b03c8e2f4e6692f174a7074e54ff_cd6b4f5eb88a4f7590c29d744dbd6cd0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "5a0dd8908a3a459b83ec5eb6ac7d0f82_f3599aace98a4c0890a8ea374dfd58ff",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "84e056bd8e994362a37cba45c0f75558_afd9d700ec144dc3b646bec39362c710",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "4962cb207a824e57bd10a2af49354b16_1a1dc7ef4955481ba3755fbaa39a53d8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "pedestrianCrossing",
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "c5224b9b454b4ded9b5d2d2634bbda8a_61d47d1198184bfdaa6777e9448d825d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "7061c08f7eec4495979a0cf68ab6bb79_1f9b04c2eca4497288cf23649ac47b8a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "fcc020250f884397965ba00c1d9ad9e6_6648ade33185426ea5864cdf7e0f028c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "schoolSpeedLimit25"
+        ]
+    },
+    {
+        "id": "8e3364691ee94c698458e0913a29af78_cc6d0652e2eb4240b6f07ad1be99109c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "speedLimit35",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "6776b91389394ff18e57b269863b4dbf_f335c27059304aaf8476c5b1bc5f9591",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "0e7ede02718341558414865d5c604745_b7df21a953a2477ab5ec0c37e7d21128",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6776b91389394ff18e57b269863b4dbf_8ccbaa325ad14456a649b57cb08c3614",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "9068766ee9374872a380fe75fcfb299e_705b8eb682fb49c98189a06672b1f665",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "5301151d8b6a42b0b252e95634bd3995_bcc84d5dd4574fdf960c240530088966",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "b94fbf78579f4ff5ab5dbd897d5e3199_2b9bd7102b304eb68d3413df7f0f3462",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "c5224b9b454b4ded9b5d2d2634bbda8a_3a7aa284dd9d485d8effc20db8cda140",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "stop",
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "signalAhead"
+        ]
+    },
+    {
+        "id": "91f797db8fb34ae5b32ba85eecae47c9_690f0d215c29452b9ee793fc6a033308",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "64bfc5edd71147858ce7446892d7f864_ec55283a7cf346758faf11881b865297",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "36f27b26ef4c423c9b79ac984dc33bae_cb83564311ad470fae21ff06fda307ca",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT",
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "3b2ee26cb8484f77895bc336663df502_5ab01f7610a24878894087740852f716",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "ee48ee50025e40b4ae27dbdf84d92825_2a376dea392d47b7b02e45fa544ea43d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "54f56f80350b4c07af598ee87cf3886a_4c81b06a19fc4cbaa52987841cdf57d4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "55b3a17359014f398b6bbd90e94a8e1b_a68a08180d9749c28b9fec0abf30548c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "a499ee875da34e2b9655afb999edb8a9_6c6c21246e5249edb225218c1e0cd1ce",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "d29527ec841045d18d04a933e7a0afd2_f4550267cd0240e1a1ceb844e33e97d4",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "c5224b9b454b4ded9b5d2d2634bbda8a_bc0040070bcc4233a057bb293f5f6444",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "112ca771e318478a88cfa692f61ffcac_2b2bd3906bbb4733b6202793e793b4d1",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop"
+        ]
+    },
+    {
+        "id": "8edbc31083ab4fb187626e5b3c0411f7_17dd14b176364a539463dbe99d96918a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "380ff00ec86447e3b986edc8e82ffba7_6ca201edb2ec4a49aa6dee2502640f30",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e7ef871f77f44331aefdebc24ec034b7_dc878ebb5b1e43eb9442d9361854613e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "efa5c96f05594f41a2498eb9f2e7ad99_7d0b70d62a3a48d4818173cab9983b63",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "325cef682f064c55a255f2625c533b75_b1303058fa624645b753d7283d70de45",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "955ff42a1990442d868cdfc0c01583d4_d3f02a11c4c64e6c826f4d82838a204a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "3dd9ad3f963e4f588d75c112cbf07f56_ddff867e8f5944869c55dfeca2151ba8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "DOUBLE_DASHED_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "4bb9626f13184da7a67ba1b241c19558_492da4bac888462f817798f52a82bfeb",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "8e3364691ee94c698458e0913a29af78_8c4f9b0b97424ba2940ca2a9aa030e4a",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "fb73d1a6c16147ee9416faf6b310fadb_f4ee84975f4448c49532330e9efd9749",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": [
+            "stop",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "9f1f69646d644e35be4fe0122a8b91ef_802619f6fb5940608483cb29fc1beab6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "8e3364691ee94c698458e0913a29af78_ac7e7a21d29b41e6acc78ce8ef5ade66",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "813213458a214a39a1d1fc77fa52fa34_9ec1f5b804234e15a1ceb2484201b689",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "d01e7279da2649ef896dc42f6b9ee7ab_f2c4526fa5424506a091ba9f737c895e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "3dd2be428534403ba150a0b60abc6a0a_7f73470d1234487996a0f254b1e6c610",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "82cabcf15a1a48aca6bbf082f8710e39_ae463fd0ba0e430984c1fa560856f4d8",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "3dd9ad3f963e4f588d75c112cbf07f56_470df44aab6241f4843137efa2e55b85",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "aacd6706a091407fb1b0e5343d27da7e_ef8f7932dae845618d4a4d23d64fab2f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "afd73f70ff7d46d6b772d341c08e31a5_5ff472758749447ca27827543e5d50dd",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    },
+    {
+        "id": "325cef682f064c55a255f2625c533b75_e174cb43655f49dab7ffa27b973670e3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "3dd2be428534403ba150a0b60abc6a0a_40ead2f47c8146c581917c05cfda04ea",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "ddb615d9bb22484cabc6545b632a1025_b923744651764ed194ddf7526b9b2cf6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "7052d21b95fc4bae8761b8d9524f3e42_2fd7d4c5a1c14f2baceb354cc049866c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "aacd6706a091407fb1b0e5343d27da7e_5b78dddb2f0a4d9c9ebd29f852cbe453",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "ca6e45c25d954dc4af6e12dd7b23454d_603c9225a5624229bae41a819d10c9cd",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "f5b29a1e09d04355adcd60ab72de006b_039750d0ea984e26bf4526b6c5fa4b14",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "952cb0bcd89b4ca4b904cdcbbf595523_13a335871a10407a8b44f52cdce5a15b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "3dd9ad3f963e4f588d75c112cbf07f56_6413a3e27b664997a08f7a0b82667d06",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "30a1a4ccd60047b4a22ee3bf0645f3ad_ed798a271bb64df0a3c1b21db414fa33",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "201b7c65a61f4bc1a2333ea90ba9a932_882b922af4c740b8be9db39b2cdd1861",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "b51869782c0e464b8021eb798609f35f_6611e3ee45484c5d80bd4703d458e518",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "b789de07180846cc972118ee6d1fb027_13ade121714c46d6a028516ecb5bff60",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "41fde20fedcd4d22ab26811688612870_4de7963785f34de7afb9e5aae3ce6f9f",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "5eaff323af5b4df4b864dbd433aeb75c_63e40c4a678d4bf49031458d5ba6e01b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "e8099a6136804f3bb9b38ff94d98eb64_72cf72aa387f47c68347d9a108e698f3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "656bb27689dc4e9b8e4559e3f6a7e534_021dac450e464cc8bdc4f2f0baf2235b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Slow",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "034dee1695304630b0692da8c1f153fc_98bf27ef19ff41fe9c46bb8fff168076",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "0dae482684ce4cd69a7258f55bc98d73_57830375357c40ac897e5e023f5e575b",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "fcbccedd61424f1b85dcbf8f897f9754_6832e717621341568c759151b5974512",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "6d872d1448814fd189e631b1187c3771_9c1fc0d8c93b4a8584cc4f41d2863667",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "DOUBLE_DASHED_WHITE_LEFT",
+            "stopLine"
+        ]
+    },
+    {
+        "id": "50ff554b3ecb4d208849d042b7643715_626c2ccc5e2349f8869d3b48c2256886",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "3363f396bb43405fbdd17d65dc123d4e_3d16bad0879d464b9b7668c6a24dd046",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "ddb615d9bb22484cabc6545b632a1025_888dd9afb9bc43e2bfbc5e92835a2b26",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "fcbccedd61424f1b85dcbf8f897f9754_61d9340c5ad8418dafe7a4af1b96e6b9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "380ff00ec86447e3b986edc8e82ffba7_f69667239ae9429caf5b350cedbae46d",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "fcc020250f884397965ba00c1d9ad9e6_a29623dd054b4177a9d98b83c0fd23bd",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "2ed0fcbfc214478ca3b3ce013e7723ba_9d2797d705214019a87cb95bfbfd8559",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "57dc3221a3d845b5ab17ff0f98ce336f_e9043b60e62647dd8f1bb001e8740236",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "SINGLE_SOLID_WHITE_RIGHT",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "acc29386502047339e1ec6b9c7e512d2_5e80e020aacb406fad737926aeadbb30",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "7e8ff24069ff4023ac699669b2c920de_b404c2454ed34328bcc92f0bbd039549",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "a178a1b5415f45c08d179bd2cacdf284_1a9c83c482c84c9e874e21aab1820190",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "96e5f1f0944946f391b4ef33ad623008_d7071641dfaa4e1195d78684fce521e9",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "96e5f1f0944946f391b4ef33ad623008_f3730479b67b4a3db407852deafe0c0e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "5301151d8b6a42b0b252e95634bd3995_907d8111df2a432dbbf8a992755ae1e6",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Right",
+        "classes": []
+    },
+    {
+        "id": "7365495b74464629813b41eacdb711af_9c2cb01fe74e49e1b9d3b8ae3fa72299",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine"
+        ]
+    },
+    {
+        "id": "080a52cb8f59489b9cddc7b721808088_ca924333b0ad4839952a5b6ab70de4b0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "82cabcf15a1a48aca6bbf082f8710e39_75987ced752e441ab0a8b8cb02804fa0",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "speedLimit35",
+            "speedLimit45"
+        ]
+    },
+    {
+        "id": "c4df079d260241ff8015218e29b42ea7_c06a5e8ca3694889a25d3143d4dca9d5",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Left",
+        "classes": []
+    },
+    {
+        "id": "c65c4acf86954f8cbd53a3541a3bfa3a_9573d00b8d3d4ca5badde36566ed0c84",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Fast",
+        "direction_predicate": "Left",
+        "classes": [
+            "keepRight"
+        ]
+    },
+    {
+        "id": "e8834785d9ff4783a5950281a4579943_2f8f4764cb894e0b8c611e312d5bb46c",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": []
+    },
+    {
+        "id": "6f83169d067343658251f72e1dd17dbc_37535cd306954669a2b21578573b93e3",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Stop",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stopLine",
+            "SINGLE_SOLID_WHITE_LEFT"
+        ]
+    },
+    {
+        "id": "fcbccedd61424f1b85dcbf8f897f9754_c5f58c19249d4137ae063b0e9ecd8b8e",
+        "gt_action_predicate": [],
+        "velocity_predicate": "Normal",
+        "direction_predicate": "Straight",
+        "classes": [
+            "stop",
+            "SINGLE_SOLID_WHITE_RIGHT"
+        ]
+    }
+]

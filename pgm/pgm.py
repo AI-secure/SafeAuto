@@ -66,10 +66,14 @@ class PGM:
         self.tol = tol
         self.regularization = regularization
 
+    def _avg_gt_prob(self, scores, data):
+        true_labels = np.argmax(data[:, :self.action_num], 1)
+        probs = softmax(scores, axis=1)
+        return probs[np.arange(len(data)), true_labels].mean()
+
     def train_mln(self, data, save_path):
         data = pad_llm_predicates(data, self.config)
         w, prev_ll, prev_acc = self.weights, -np.inf, -np.inf
-        true_labels = np.argmax(data[:, :self.action_num], 1)
         # The data never changes during training, so both satisfaction tables
         # are computed once outside the loop.
         sat = compute_satisfaction(data, self.formulas)
@@ -77,15 +81,15 @@ class PGM:
         acts = np.tile(np.eye(self.action_num), (len(data), 1))
         cand_sat = compute_satisfaction(np.concatenate([acts, conds], axis=1), self.formulas)
         cand_sat = cand_sat.reshape(len(data), self.action_num, -1)
-        # Formulas whose satisfaction never varies on the training data (e.g.
-        # rules over the zero-padded MLLM predicates) carry no gradient
-        # information; the dataset-level softmax would otherwise inflate their
-        # weights without bound, so they stay at their initial value.
-        trainable = sat.std(0) > 0
+        # Formulas whose satisfaction never varies — neither across the
+        # training data nor across candidate actions (e.g. rules over the
+        # zero-padded MLLM predicates) — carry no gradient information; the
+        # dataset-level softmax would otherwise inflate their weights without
+        # bound, so they stay at their initial value.
+        trainable = (sat.std(0) > 0) | (cand_sat.reshape(-1, cand_sat.shape[-1]).std(0) > 0)
         for it in range(self.max_iter):
             ll = compute_log_likelihood(sat, w, self.regularization)
-            probs = softmax(cand_sat @ w, axis=1)
-            avg_prob = probs[np.arange(len(data)), true_labels].mean()
+            avg_prob = self._avg_gt_prob(cand_sat @ w, data)
             print(f"[INFO] Iter {it}, Avg GT Prob: {avg_prob}, LogLik: {ll}")
             if abs(ll - prev_ll) < self.tol or abs(avg_prob - prev_acc) < self.tol:
                 np.save(save_path, w)
@@ -120,6 +124,53 @@ class PGM:
         probs, _ = self.infer_action_probability(cond)
         return probs[instance[:self.action_num].argmax()]
 
+
+class DriveLMPGM(PGM):
+    """PGM for DriveLM, where an action is a (velocity, direction) pair.
+
+    The 7 unobserved action predicates split into a velocity block
+    (Normal/Fast/Slow/Stop) and a direction block (Left/Right/Straight); the
+    two blocks are normalized with separate softmaxes.
+    """
+
+    def _avg_gt_prob(self, scores, data):
+        v = self.config.velocity_action_num
+        idx = np.arange(len(data))
+        velo_gt = np.argmax(data[:, :v], 1)
+        dire_gt = np.argmax(data[:, v:self.action_num], 1)
+        has_velo = data[:, :v].sum(1) > 0  # some samples carry no velocity label
+        velo_probs = softmax(scores[:, :v], axis=1)[idx, velo_gt]
+        dire_probs = softmax(scores[:, v:], axis=1)[idx, dire_gt]
+        return (velo_probs[has_velo].mean() + dire_probs.mean()) / 2
+
+    def infer_action_probability(self, cond):
+        v = self.config.velocity_action_num
+        instances = generate_possible_instances(cond, self.action_num, self.condition_num)
+        sat = compute_satisfaction(instances, self.formulas)
+        scores = sat @ self.weights
+        velo_probs, dire_probs = softmax(scores[:v]), softmax(scores[v:])
+        return (velo_probs, dire_probs), (int(np.argmax(velo_probs)), int(np.argmax(dire_probs)) + v)
+
+    def eval(self, test_data):
+        test_data = pad_llm_predicates(test_data, self.config)
+        v = self.config.velocity_action_num
+        velo_gt = np.argmax(test_data[:, :v], 1)
+        dire_gt = np.argmax(test_data[:, v:self.action_num], 1)
+        has_velo = test_data[:, :v].sum(1) > 0
+        preds = [self.infer_action_probability(x[self.action_num:])[1] for x in test_data]
+        velo_pred = np.array([p[0] for p in preds])
+        dire_pred = np.array([p[1] for p in preds])
+        return (compute_accuracy(velo_gt[has_velo], velo_pred[has_velo]),
+                compute_accuracy(dire_gt, dire_pred - v))
+
+    def compute_instance_probability(self, instance):
+        v = self.config.velocity_action_num
+        cond = instance[self.action_num:]
+        (velo_probs, dire_probs), _ = self.infer_action_probability(cond)
+        return (velo_probs[instance[:v].argmax()],
+                dire_probs[instance[v:self.action_num].argmax()])
+
+
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="PGM Training Script")
@@ -132,14 +183,21 @@ if __name__ == "__main__":
     parser.add_argument('--output_dir', type=str, default='pgm/ckpts/pgm', help='Path to save trained weights')
     args = parser.parse_args()
 
-    config = {'bddx': BDDX, 'drivelm': DriveLM}.get(args.dataset, None)
-    if config is None:
+    registry = {'bddx': (BDDX, PGM), 'drivelm': (DriveLM, DriveLMPGM)}
+    if args.dataset not in registry:
         raise ValueError("Unsupported dataset.")
-    config = config()
+    config_cls, pgm_cls = registry[args.dataset]
+    config = config_cls()
     os.makedirs(args.output_dir, exist_ok=True)
-    train_vector_path = f"pgm/predicates/{args.dataset}/train_vectors.pkl"
+    # Prefer the full predicate vectors (with the MLLM action predicates) when
+    # released; fall back to the observed-only vectors, whose missing MLLM
+    # block gets zero-padded in train_mln.
+    candidates = [f"pgm/predicates/{args.dataset}/train_pgm_vectors.pkl",
+                  f"pgm/predicates/{args.dataset}/train_vectors.pkl"]
+    train_vector_path = next(p for p in candidates if os.path.exists(p))
+    print(f"[INFO] Training from {train_vector_path}")
     with open(train_vector_path, 'rb') as f:
         train_data = np.array(pickle.load(f))
     weights = np.load(args.weights) if args.weights else None
-    pgm = PGM(config, weights=weights, learning_rate=args.learning_rate, max_iter=args.max_iter, tol=args.tol, regularization=args.regularization)
+    pgm = pgm_cls(config, weights=weights, learning_rate=args.learning_rate, max_iter=args.max_iter, tol=args.tol, regularization=args.regularization)
     pgm.train_mln(train_data, save_path=f"{args.output_dir}/{args.dataset}_weights.npy")

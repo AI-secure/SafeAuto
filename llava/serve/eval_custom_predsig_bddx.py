@@ -151,10 +151,13 @@ def main(args):
                     illegal_predicates = [p for p in pred_action_predicates if p not in gt_action_predicates]
                     legal_predicates = [p for p in pred_action_predicates if p in gt_action_predicates]
                     if illegal_predicates and attempt == 0:
-                        ep_vector = list2vector(extraction_inst, EP_MAP, inference=True)
-                        cs_vector = cs2vector(extraction_inst['velocity_predicate'], extraction_inst['direction_predicate'], inference=True)
-                        mllm_vector = list2vector(pred_action_predicates, LLM_ACTION_MAP, inference=True)
-                        condition_vector = combine_vectors(ep_vector, cs_vector, mllm_vector)
+                        # Build the full 52-dim predicate vector (absolute
+                        # indices) and slice off the action block to get the
+                        # condition vector expected by the PGM.
+                        ep_vector = list2vector(extraction_inst['classes'], EP_MAP, inference=False)
+                        cs_vector = cs2vector(extraction_inst['velocity_predicate'], extraction_inst['direction_predicate'], inference=False)
+                        mllm_vector = list2vector(pred_action_predicates, LLM_ACTION_MAP, inference=False)
+                        condition_vector = combine_vectors(ep_vector, cs_vector, mllm_vector)[config.action_num:]
                         pgm_probs, index = pgm.infer_action_probability(condition_vector)
                         pgm_suggest_predicate = action_list[index]
                         legal_predicates.append(pgm_suggest_predicate)
