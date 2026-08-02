@@ -65,7 +65,7 @@ def main(args):
     
     # PGM
     config = BDDX()
-    pgm = PGM(config, weights_path=np.load(args.pgm_path))
+    pgm = PGM(config, weights=np.load(args.pgm_path))
     extraction = json.load(open(args.extraction_path, 'r'))
     action_list = BDDX().action_list
     # print(model, tokenizer, processor)

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 #####################
 init_sigma=$1
 final_sigma=$2
@@ -9,11 +10,11 @@ topk=$4        # used if rag=true
 if [ "$rag" = "true" ]; then
     suffix="rag_top${topk}"
     train_file="conversation_drivelm_train_${suffix}.json"
-    eval_file="conversation_drivelm_eval_${suffix}.json"
+    eval_file="conversation_drivelm_val_${suffix}.json"
 else
     suffix="norag"
     train_file="conversation_drivelm_train.json"
-    eval_file="conversation_drivelm_eval.json"
+    eval_file="conversation_drivelm_val.json"
 fi
 
 formatted_init_sigma=$(printf "%.2f" $init_sigma)

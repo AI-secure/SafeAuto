@@ -1,3 +1,5 @@
+import os
+
 import torch
 from torch import nn
 from transformers import AutoConfig
@@ -88,6 +90,23 @@ def to_device(x, device):
     out_dict = {k: v.to(device) for k, v in x.items()}
     return out_dict
 
+def resolve_tower_path(name):
+    """Resolve a LanguageBind tower name to something from_pretrained accepts.
+
+    Model configs store local paths such as './cache_dir/LanguageBind_Image'
+    (created by scripts/download_base.sh). When that directory is missing —
+    e.g. the script was not run or inference runs from another working
+    directory — transformers would treat the path as a Hugging Face repo id
+    and fail with HFValidationError, so fall back to the official
+    'LanguageBind/<name>' hub repo instead.
+    """
+    if os.path.isdir(name):
+        return name
+    base = os.path.basename(os.path.normpath(name))
+    if base.startswith('LanguageBind_'):
+        return f'LanguageBind/{base}'
+    return name
+
 
 
 
@@ -97,7 +116,7 @@ class LanguageBindImageTower(nn.Module):
 
         self.is_loaded = False
 
-        self.image_tower_name = image_tower
+        self.image_tower_name = resolve_tower_path(image_tower)
         self.select_layer = args.mm_vision_select_layer
         self.select_feature = getattr(args, 'mm_vision_select_feature', 'patch')
 
@@ -179,7 +198,7 @@ class LanguageBindVideoTower(nn.Module):
 
         self.is_loaded = False
 
-        self.video_tower_name = video_tower
+        self.video_tower_name = resolve_tower_path(video_tower)
         self.select_layer = args.mm_vision_select_layer
         self.select_feature = getattr(args, 'mm_vision_select_feature', 'patch')
 

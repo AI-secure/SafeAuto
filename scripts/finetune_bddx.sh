@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 #####################
 init_sigma=$1
 final_sigma=$2

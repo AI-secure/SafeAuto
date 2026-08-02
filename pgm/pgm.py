@@ -5,7 +5,29 @@ from scipy.special import softmax
 from pgm.config import BDDX, DriveLM
 
 def compute_satisfaction(data, formulas):
-    return np.array([[f(x) for f in formulas] for x in data])
+    # Formulas are pure arithmetic, so evaluate them on whole columns at once.
+    args = np.asarray(data).T
+    return np.array([f(args) for f in formulas], dtype=float).T
+
+def pad_llm_predicates(data, config):
+    """Pad predicate vectors that were extracted without the MLLM action block.
+
+    Vectors generated before MLLM training only contain the observed
+    predicates (actions + environment + control signals). The MLLM action
+    predicates are unknown at PGM-training time, so they are set to 0, which
+    makes every MLLM-related rule trivially satisfied.
+    """
+    data = np.asarray(data, dtype=float)
+    full_dim = config.action_num + config.condition_num
+    llm_dim = sum(1 for name in config.predicate if name.endswith('_LLM'))
+    if data.shape[1] == full_dim:
+        return data
+    if data.shape[1] == full_dim - llm_dim:
+        return np.concatenate([data, np.zeros((data.shape[0], llm_dim))], axis=1)
+    raise ValueError(
+        f"Predicate vectors have {data.shape[1]} dims, expected {full_dim} "
+        f"(or {full_dim - llm_dim} without the MLLM action block)."
+    )
 
 def log_sum_exp(x):
     m = np.max(x)
@@ -15,10 +37,12 @@ def compute_log_likelihood(sat, w, reg):
     ws = sat @ w
     return np.sum(ws) - log_sum_exp(ws) - 0.5 * reg * np.sum(w ** 2)
 
-def update_weights(w, sat, lr, reg):
+def update_weights(w, sat, lr, reg, trainable=None):
     ws = sat @ w
     exp_ws = np.exp(ws - log_sum_exp(ws))
     grad = np.sum(sat, 0) - np.sum(exp_ws[:, None] * sat, 0) - reg * w
+    if trainable is not None:
+        grad = grad * trainable
     return w + lr * grad
 
 def generate_possible_instances(cond, action_num, cond_num):
@@ -43,15 +67,25 @@ class PGM:
         self.regularization = regularization
 
     def train_mln(self, data, save_path):
+        data = pad_llm_predicates(data, self.config)
         w, prev_ll, prev_acc = self.weights, -np.inf, -np.inf
         true_labels = np.argmax(data[:, :self.action_num], 1)
+        # The data never changes during training, so both satisfaction tables
+        # are computed once outside the loop.
+        sat = compute_satisfaction(data, self.formulas)
+        conds = np.repeat(data[:, self.action_num:], self.action_num, axis=0)
+        acts = np.tile(np.eye(self.action_num), (len(data), 1))
+        cand_sat = compute_satisfaction(np.concatenate([acts, conds], axis=1), self.formulas)
+        cand_sat = cand_sat.reshape(len(data), self.action_num, -1)
+        # Formulas whose satisfaction never varies on the training data (e.g.
+        # rules over the zero-padded MLLM predicates) carry no gradient
+        # information; the dataset-level softmax would otherwise inflate their
+        # weights without bound, so they stay at their initial value.
+        trainable = sat.std(0) > 0
         for it in range(self.max_iter):
-            sat = compute_satisfaction(data, self.formulas)
             ll = compute_log_likelihood(sat, w, self.regularization)
-            avg_prob = np.mean([
-                self.infer_action_probability(x[self.action_num:])[0][y]
-                for x, y in zip(data, true_labels)
-            ])
+            probs = softmax(cand_sat @ w, axis=1)
+            avg_prob = probs[np.arange(len(data)), true_labels].mean()
             print(f"[INFO] Iter {it}, Avg GT Prob: {avg_prob}, LogLik: {ll}")
             if abs(ll - prev_ll) < self.tol or abs(avg_prob - prev_acc) < self.tol:
                 np.save(save_path, w)
@@ -62,11 +96,12 @@ class PGM:
                 np.save(save_path, w)
                 print(f"[INFO] Saving weights at iter {it} to {save_path}.")
             prev_ll = ll
-            w = update_weights(w, sat, self.learning_rate, self.regularization)
+            w = update_weights(w, sat, self.learning_rate, self.regularization, trainable)
             self.weights = w
         return w
 
     def eval(self, test_data):
+        test_data = pad_llm_predicates(test_data, self.config)
         true_labels = np.argmax(test_data[:, :self.action_num], 1)
         preds = [self.infer_action_probability(x[self.action_num:])[1] for x in test_data]
         return compute_accuracy(true_labels, np.array(preds))

@@ -208,9 +208,12 @@ Train the PGM with environment predicate vectors:
 # For BDD-X Dataset
 python -m pgm.pgm --dataset bddx 
 
-# For DriveLM Dataset
-python -m pgm.pgm --dataset drivelm 
+# For DriveLM Dataset [TODO]
 ```
+
+Notes:
+- A pretrained BDD-X PGM checkpoint is provided at `pgm/ckpts/pgm/bddx_weights.npy`, so this step is only needed if you want to retrain with your own predicates/rules.
+- The released predicate vectors (`pgm/predicates/bddx/*.pkl`) contain only the observed predicates (actions + environment + control signals). The MLLM action predicates are unknown at PGM-training time, so `pgm.pgm` automatically zero-pads them, which makes MLLM-related rules trivially satisfied during training; their weights stay at the initial value and only take effect at inference.
 
 #### 2. Multimodal RAG Training
 
